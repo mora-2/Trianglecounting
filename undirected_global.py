@@ -93,12 +93,15 @@ def main():
     t2 = 0
     W = HyperLogLogPlusPlus()
     G = nx.random_partition_graph(N_series, P_in, P_out, seed=seed)
+    gt = sum(nx.triangles(G).values()) // 3
 
     for i in range(m):
         locals()[f'node_set_{i + 1}'] = list(G.graph['partition'][i])
         locals()[f'Party{i + 1}'] = Server()
-        locals()[f'Party{i + 1}'].generate_graph(G,
-                                                 locals()[f'node_set_{i + 1}'])
+        locals()[f'Party{i + 1}'].generate_graph(G, locals()[f'node_set_{i + 1}'])
+
+    for i in range(m):    
+        # generate wedge & triangles —— (sub graph)
         locals()[f'Party{i + 1}'].compute(list(G.graph['partition']))
 
     t_start = time()
@@ -110,7 +113,6 @@ def main():
     estimation = (t1 - t2) / 2
     t_end = time()
 
-    gt = sum(nx.triangles(G).values()) // 3
     error = abs(estimation - gt) / gt
     print("N_series:", N_series)
     print("P_in:", P_in)
