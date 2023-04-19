@@ -1,0 +1,1530 @@
+15382:   python3 /home/yuance/Work/Trianglecounting/undirected_global.py 1000 1000 10 0.3 0.1
+Address           Kbytes     RSS   Dirty Mode  Mapping
+0000000000400000    3792       4       0 r-x-- python3.6
+0000000000400000       0       0       0 r-x-- python3.6
+00000000009b3000       4       0       0 r---- python3.6
+00000000009b3000       0       0       0 r---- python3.6
+00000000009b4000     628      96      96 rw--- python3.6
+00000000009b4000       0       0       0 rw--- python3.6
+0000000000a51000     204      16      16 rw---   [ anon ]
+0000000000a51000       0       0       0 rw---   [ anon ]
+0000000001f72000 49402708 36707920 33990424 rw---   [ anon ]
+0000000001f72000       0       0       0 rw---   [ anon ]
+00007f8e657ea000  663296  663276  661152 rw---   [ anon ]
+00007f8e657ea000       0       0       0 rw---   [ anon ]
+00007f8e8dfaa000    5968       0       0 rw---   [ anon ]
+00007f8e8dfaa000       0       0       0 rw---   [ anon ]
+00007f8e8e57e000 10486784 10486784 9357248 rw---   [ anon ]
+00007f8e8e57e000       0       0       0 rw---   [ anon ]
+00007f910e67e000  414140       0       0 rw---   [ anon ]
+00007f910e67e000       0       0       0 rw---   [ anon ]
+00007f9127aed000 4429056 4429056 4014112 rw---   [ anon ]
+00007f9127aed000       0       0       0 rw---   [ anon ]
+00007f923602d000   55920       0       0 rw---   [ anon ]
+00007f923602d000       0       0       0 rw---   [ anon ]
+00007f92396c9000 11639040 11639040 9262320 rw---   [ anon ]
+00007f92396c9000       0       0       0 rw---   [ anon ]
+00007f94ffd09000  229820       0       0 rw---   [ anon ]
+00007f94ffd09000       0       0       0 rw---   [ anon ]
+00007f950dd78000 3833088 3833088 3775864 rw---   [ anon ]
+00007f950dd78000       0       0       0 rw---   [ anon ]
+00007f95f7cb8000   98308       0       0 rw---   [ anon ]
+00007f95f7cb8000       0       0       0 rw---   [ anon ]
+00007f95fdcb9000 3112960 3112960 3053828 rw---   [ anon ]
+00007f95fdcb9000       0       0       0 rw---   [ anon ]
+00007f96bbce7000 7879424 7879424 7769344 rw---   [ anon ]
+00007f96bbce7000       0       0       0 rw---   [ anon ]
+00007f989cbe6000 6451712 6451592 6443788 rw---   [ anon ]
+00007f989cbe6000       0       0       0 rw---   [ anon ]
+00007f9a26871000 9553152 9552744 9552744 rw---   [ anon ]
+00007f9a26871000       0       0       0 rw---   [ anon ]
+00007f9c6d9f0000 8123648 8123304 7577628 rw---   [ anon ]
+00007f9c6d9f0000       0       0       0 rw---   [ anon ]
+00007f9e5d74b000 4423168 4419836 4006936 rw---   [ anon ]
+00007f9e5d74b000       0       0       0 rw---   [ anon ]
+00007f9f6b6d8000 5240320 2963768 2728688 rw---   [ anon ]
+00007f9f6b6d8000       0       0       0 rw---   [ anon ]
+00007fa0ab47e000 8984064 3048364 2854032 rw---   [ anon ]
+00007fa0ab47e000       0       0       0 rw---   [ anon ]
+00007fa2cfa12000 7175936 3029396 2615004 rw---   [ anon ]
+00007fa2cfa12000       0       0       0 rw---   [ anon ]
+00007fa4859ea000 4198912 1469712 1433464 rw---   [ anon ]
+00007fa4859ea000       0       0       0 rw---   [ anon ]
+00007fa585e76000 4880640 2357684 2316184 rw---   [ anon ]
+00007fa585e76000       0       0       0 rw---   [ anon ]
+00007fa6afcd1000 7495424 5260560 5260560 rw---   [ anon ]
+00007fa6afcd1000       0       0       0 rw---   [ anon ]
+00007fa8794b1000 7266816 5824936 5824936 rw---   [ anon ]
+00007fa8794b1000       0       0       0 rw---   [ anon ]
+00007faa34d54000 2645248 1679424 1679424 rw---   [ anon ]
+00007faa34d54000       0       0       0 rw---   [ anon ]
+00007faad64d0000 5197056 3078744 3078724 rw---   [ anon ]
+00007faad64d0000       0       0       0 rw---   [ anon ]
+00007fac13828000 6360320 4534628 4530748 rw---   [ anon ]
+00007fac13828000       0       0       0 rw---   [ anon ]
+00007fad97b85000 5618688 3833096 3832032 rw---   [ anon ]
+00007fad97b85000       0       0       0 rw---   [ anon ]
+00007faeeeac1000 3045376 1839276 1834248 rw---   [ anon ]
+00007faeeeac1000       0       0       0 rw---   [ anon ]
+00007fafa88f0000 4870912 2966136 2945692 rw---   [ anon ]
+00007fafa88f0000       0       0       0 rw---   [ anon ]
+00007fb0d1dbe000 5422848 2504548 2469440 rw---   [ anon ]
+00007fb0d1dbe000       0       0       0 rw---   [ anon ]
+00007fb21cd89000 5438720 3679708 3526140 rw---   [ anon ]
+00007fb21cd89000       0       0       0 rw---   [ anon ]
+00007fb368ce9000 2101504 1699884 1679528 rw---   [ anon ]
+00007fb368ce9000       0       0       0 rw---   [ anon ]
+00007fb3e9168000 4166144 1732464 1705796 rw---   [ anon ]
+00007fb3e9168000       0       0       0 rw---   [ anon ]
+00007fb4e7618000 4845312 2657504 2594872 rw---   [ anon ]
+00007fb4e7618000       0       0       0 rw---   [ anon ]
+00007fb60f1d9000  122880  122736  122736 rw---   [ anon ]
+00007fb60f1d9000       0       0       0 rw---   [ anon ]
+00007fb616a0e000 6130944 2541500 2539520 rw---   [ anon ]
+00007fb616a0e000       0       0       0 rw---   [ anon ]
+00007fb78cd5c000  424704       0       0 rw---   [ anon ]
+00007fb78cd5c000       0       0       0 rw---   [ anon ]
+00007fb7a6c30000 4981760 2297892 2250104 rw---   [ anon ]
+00007fb7a6c30000       0       0       0 rw---   [ anon ]
+00007fb8d6d62000 3720704  701344  701344 rw---   [ anon ]
+00007fb8d6d62000       0       0       0 rw---   [ anon ]
+00007fb9b9f0a000 4956928  100280  100280 rw---   [ anon ]
+00007fb9b9f0a000       0       0       0 rw---   [ anon ]
+00007fbae87d0000  602112       0       0 rw---   [ anon ]
+00007fbae87d0000       0       0       0 rw---   [ anon ]
+00007fbb0d3f0000 4378624   95624   95624 rw---   [ anon ]
+00007fbb0d3f0000       0       0       0 rw---   [ anon ]
+00007fbc187f9000 2878208       0       0 rw---   [ anon ]
+00007fbc187f9000       0       0       0 rw---   [ anon ]
+00007fbcc82f2000 4576512       0       0 rw---   [ anon ]
+00007fbcc82f2000       0       0       0 rw---   [ anon ]
+00007fbddf837000  641792       0       0 rw---   [ anon ]
+00007fbddf837000       0       0       0 rw---   [ anon ]
+00007fbe06b14000 3620096       0       0 rw---   [ anon ]
+00007fbe06b14000       0       0       0 rw---   [ anon ]
+00007fbee3a7f000 3024896       0       0 rw---   [ anon ]
+00007fbee3a7f000       0       0       0 rw---   [ anon ]
+00007fbf9c480000 2081280       0       0 rw---   [ anon ]
+00007fbf9c480000       0       0       0 rw---   [ anon ]
+00007fc01b50c000 2602240  711216  568608 rw---   [ anon ]
+00007fc01b50c000       0       0       0 rw---   [ anon ]
+00007fc0ba257000 2686720 2559232 2398684 rw---   [ anon ]
+00007fc0ba257000       0       0       0 rw---   [ anon ]
+00007fc15e228000 2958080 2940928 2593616 rw---   [ anon ]
+00007fc15e228000       0       0       0 rw---   [ anon ]
+00007fc212b05000 1870848 1800192 1648688 rw---   [ anon ]
+00007fc212b05000       0       0       0 rw---   [ anon ]
+00007fc284e1e000 2595328 2593792 2447888 rw---   [ anon ]
+00007fc284e1e000       0       0       0 rw---   [ anon ]
+00007fc3234d3000 1548032 1548032 1408532 rw---   [ anon ]
+00007fc3234d3000       0       0       0 rw---   [ anon ]
+00007fc381cc6000 3555328 3555328 3258616 rw---   [ anon ]
+00007fc381cc6000       0       0       0 rw---   [ anon ]
+00007fc45acf5000 1100032 1100032 1039572 rw---   [ anon ]
+00007fc45acf5000       0       0       0 rw---   [ anon ]
+00007fc49df60000 2735104 2735104 2384352 rw---   [ anon ]
+00007fc49df60000       0       0       0 rw---   [ anon ]
+00007fc544e88000 2001664 2001664 1854372 rw---   [ anon ]
+00007fc544e88000       0       0       0 rw---   [ anon ]
+00007fc5bf152000 1513984 1513984 1222496 rw---   [ anon ]
+00007fc5bf152000       0       0       0 rw---   [ anon ]
+00007fc61b7d3000  758528  758464  677192 rw---   [ anon ]
+00007fc61b7d3000       0       0       0 rw---   [ anon ]
+00007fc649caf000 1063936 1063936  958748 rw---   [ anon ]
+00007fc649caf000       0       0       0 rw---   [ anon ]
+00007fc68abb2000 2601216 2601216 2568236 rw---   [ anon ]
+00007fc68abb2000       0       0       0 rw---   [ anon ]
+00007fc72982b000  985600  985600  893000 rw---   [ anon ]
+00007fc72982b000       0       0       0 rw---   [ anon ]
+00007fc765abb000 2777344 2777344 2654200 rw---   [ anon ]
+00007fc765abb000       0       0       0 rw---   [ anon ]
+00007fc80f306000  645376  645376  613664 rw---   [ anon ]
+00007fc80f306000       0       0       0 rw---   [ anon ]
+00007fc836965000 2310144 2310144 2179184 rw---   [ anon ]
+00007fc836965000       0       0       0 rw---   [ anon ]
+00007fc8c3966000 1719296 1719296 1602560 rw---   [ anon ]
+00007fc8c3966000       0       0       0 rw---   [ anon ]
+00007fc92c866000 1907456 1907456 1785640 rw---   [ anon ]
+00007fc92c866000       0       0       0 rw---   [ anon ]
+00007fc9a0f4c000 1278720 1278720 1196956 rw---   [ anon ]
+00007fc9a0f4c000       0       0       0 rw---   [ anon ]
+00007fc9ef04b000 1433856 1433856 1345708 rw---   [ anon ]
+00007fc9ef04b000       0       0       0 rw---   [ anon ]
+00007fca468a8000 1609216 1609216 1447572 rw---   [ anon ]
+00007fca468a8000       0       0       0 rw---   [ anon ]
+00007fcaa8c3d000 1837568 1837568 1742524 rw---   [ anon ]
+00007fcaa8c3d000       0       0       0 rw---   [ anon ]
+00007fcb18ed8000 1514240 1514240 1434532 rw---   [ anon ]
+00007fcb18ed8000       0       0       0 rw---   [ anon ]
+00007fcb755c7000  195840  195840  169332 rw---   [ anon ]
+00007fcb755c7000       0       0       0 rw---   [ anon ]
+00007fcb8152a000 1728768 1728768 1668816 rw---   [ anon ]
+00007fcb8152a000       0       0       0 rw---   [ anon ]
+00007fcbead76000 1840896 1840896 1714924 rw---   [ anon ]
+00007fcbead76000       0       0       0 rw---   [ anon ]
+00007fcc5b34e000  976128  976128  827268 rw---   [ anon ]
+00007fcc5b34e000       0       0       0 rw---   [ anon ]
+00007fcc96caa000 1158656 1158656 1061104 rw---   [ anon ]
+00007fcc96caa000       0       0       0 rw---   [ anon ]
+00007fccdd834000 1620992 1620992 1567680 rw---   [ anon ]
+00007fccdd834000       0       0       0 rw---   [ anon ]
+00007fcd40754000  686336  686336  639708 rw---   [ anon ]
+00007fcd40754000       0       0       0 rw---   [ anon ]
+00007fcd6a5a2000  521984  521984  487516 rw---   [ anon ]
+00007fcd6a5a2000       0       0       0 rw---   [ anon ]
+00007fcd8a395000  739328  739328  727800 rw---   [ anon ]
+00007fcd8a395000       0       0       0 rw---   [ anon ]
+00007fcdb75a0000 1741312 1741312 1488968 rw---   [ anon ]
+00007fcdb75a0000       0       0       0 rw---   [ anon ]
+00007fce21a21000  220672  220672  201308 rw---   [ anon ]
+00007fce21a21000       0       0       0 rw---   [ anon ]
+00007fce2f1af000  893440  893440  773492 rw---   [ anon ]
+00007fce2f1af000       0       0       0 rw---   [ anon ]
+00007fce65a5f000  899840  899840  853936 rw---   [ anon ]
+00007fce65a5f000       0       0       0 rw---   [ anon ]
+00007fce9c93f000   25600   25600   25600 rw---   [ anon ]
+00007fce9c93f000       0       0       0 rw---   [ anon ]
+00007fce9e265000 1622784 1622784 1597448 rw---   [ anon ]
+00007fce9e265000       0       0       0 rw---   [ anon ]
+00007fcf01339000  801536  801536  792316 rw---   [ anon ]
+00007fcf01339000       0       0       0 rw---   [ anon ]
+00007fcf3222b000 1115136 1115136 1040372 rw---   [ anon ]
+00007fcf3222b000       0       0       0 rw---   [ anon ]
+00007fcf76346000 1620992 1620992 1604548 rw---   [ anon ]
+00007fcf76346000       0       0       0 rw---   [ anon ]
+00007fcfd9274000  682240  682240  682240 rw---   [ anon ]
+00007fcfd9274000       0       0       0 rw---   [ anon ]
+00007fd002cbd000  595200  595200  570372 rw---   [ anon ]
+00007fd002cbd000       0       0       0 rw---   [ anon ]
+00007fd027215000 1354496 1354496 1249704 rw---   [ anon ]
+00007fd027215000       0       0       0 rw---   [ anon ]
+00007fd079cf0000  787968  787968  725528 rw---   [ anon ]
+00007fd079cf0000       0       0       0 rw---   [ anon ]
+00007fd0a9e9b000  976640  976640  869056 rw---   [ anon ]
+00007fd0a9e9b000       0       0       0 rw---   [ anon ]
+00007fd0e5869000  294912  294912  269852 rw---   [ anon ]
+00007fd0e5869000       0       0       0 rw---   [ anon ]
+00007fd0f7881000 1176064 1176064 1161828 rw---   [ anon ]
+00007fd0f7881000       0       0       0 rw---   [ anon ]
+00007fd13f512000  811008  811008  810100 rw---   [ anon ]
+00007fd13f512000       0       0       0 rw---   [ anon ]
+00007fd170d42000  935168  935168  909288 rw---   [ anon ]
+00007fd170d42000       0       0       0 rw---   [ anon ]
+00007fd1a9ea5000  646912  646912  635936 rw---   [ anon ]
+00007fd1a9ea5000       0       0       0 rw---   [ anon ]
+00007fd1d1698000  470016  470016  469980 rw---   [ anon ]
+00007fd1d1698000       0       0       0 rw---   [ anon ]
+00007fd1ee1ca000  785664  785664  779912 rw---   [ anon ]
+00007fd1ee1ca000       0       0       0 rw---   [ anon ]
+00007fd21e146000  110592  110592  110592 rw---   [ anon ]
+00007fd21e146000       0       0       0 rw---   [ anon ]
+00007fd224d47000  590336  590336  510612 rw---   [ anon ]
+00007fd224d47000       0       0       0 rw---   [ anon ]
+00007fd248dd1000  611328  611328  567104 rw---   [ anon ]
+00007fd248dd1000       0       0       0 rw---   [ anon ]
+00007fd26e2da000  422912  422912  418832 rw---   [ anon ]
+00007fd26e2da000       0       0       0 rw---   [ anon ]
+00007fd287ffa000  537088  537088  521204 rw---   [ anon ]
+00007fd287ffa000       0       0       0 rw---   [ anon ]
+00007fd2a8c8a000  556800  556800  512332 rw---   [ anon ]
+00007fd2a8c8a000       0       0       0 rw---   [ anon ]
+00007fd2cac75000  887808  887808  869968 rw---   [ anon ]
+00007fd2cac75000       0       0       0 rw---   [ anon ]
+00007fd300f86000  527360  527360  521580 rw---   [ anon ]
+00007fd300f86000       0       0       0 rw---   [ anon ]
+00007fd321294000   17664   17664   17664 rw---   [ anon ]
+00007fd321294000       0       0       0 rw---   [ anon ]
+00007fd3223d4000  977408  977408  939184 rw---   [ anon ]
+00007fd3223d4000       0       0       0 rw---   [ anon ]
+00007fd35de5a000  197888  197888  187528 rw---   [ anon ]
+00007fd35de5a000       0       0       0 rw---   [ anon ]
+00007fd369faf000  300800  300800  300800 rw---   [ anon ]
+00007fd369faf000       0       0       0 rw---   [ anon ]
+00007fd37c5a2000  807936  807936  699040 rw---   [ anon ]
+00007fd37c5a2000       0       0       0 rw---   [ anon ]
+00007fd3adaa7000  132608  132608  132608 rw---   [ anon ]
+00007fd3adaa7000       0       0       0 rw---   [ anon ]
+00007fd3b5c33000  405760  405760  384912 rw---   [ anon ]
+00007fd3b5c33000       0       0       0 rw---   [ anon ]
+00007fd3ce87d000  613632  613632  605760 rw---   [ anon ]
+00007fd3ce87d000       0       0       0 rw---   [ anon ]
+00007fd3f3fc9000  129280  129280  129280 rw---   [ anon ]
+00007fd3f3fc9000       0       0       0 rw---   [ anon ]
+00007fd3fbe29000  221184  221184  221184 rw---   [ anon ]
+00007fd3fbe29000       0       0       0 rw---   [ anon ]
+00007fd409639000  385536  385536  247656 rw---   [ anon ]
+00007fd409639000       0       0       0 rw---   [ anon ]
+00007fd420ed2000   89344   89344   89344 rw---   [ anon ]
+00007fd420ed2000       0       0       0 rw---   [ anon ]
+00007fd426613000  146176  146176  146176 rw---   [ anon ]
+00007fd426613000       0       0       0 rw---   [ anon ]
+00007fd42f4e1000  377856  377856  326820 rw---   [ anon ]
+00007fd42f4e1000       0       0       0 rw---   [ anon ]
+00007fd44660c000  169728  169728  169728 rw---   [ anon ]
+00007fd44660c000       0       0       0 rw---   [ anon ]
+00007fd450bcc000  206592  206592  203604 rw---   [ anon ]
+00007fd450bcc000       0       0       0 rw---   [ anon ]
+00007fd45d5a0000  459264  459264  420800 rw---   [ anon ]
+00007fd45d5a0000       0       0       0 rw---   [ anon ]
+00007fd479635000  425728  425728  409588 rw---   [ anon ]
+00007fd479635000       0       0       0 rw---   [ anon ]
+00007fd493601000  386304  386304  386304 rw---   [ anon ]
+00007fd493601000       0       0       0 rw---   [ anon ]
+00007fd4aaf61000  353280  353280  301376 rw---   [ anon ]
+00007fd4aaf61000       0       0       0 rw---   [ anon ]
+00007fd4c086f000  317952  317952  216420 rw---   [ anon ]
+00007fd4c086f000       0       0       0 rw---   [ anon ]
+00007fd4d3f03000  288000  288000  264412 rw---   [ anon ]
+00007fd4d3f03000       0       0       0 rw---   [ anon ]
+00007fd4e5871000  228608  228608  200324 rw---   [ anon ]
+00007fd4e5871000       0       0       0 rw---   [ anon ]
+00007fd4f37cc000  196864  196864  154700 rw---   [ anon ]
+00007fd4f37cc000       0       0       0 rw---   [ anon ]
+00007fd4ff83a000   42752   42752   41992 rw---   [ anon ]
+00007fd4ff83a000       0       0       0 rw---   [ anon ]
+00007fd502212000  215808  215808  164096 rw---   [ anon ]
+00007fd502212000       0       0       0 rw---   [ anon ]
+00007fd50f4f5000  187648  187648  155720 rw---   [ anon ]
+00007fd50f4f5000       0       0       0 rw---   [ anon ]
+00007fd51ac71000  143360  143360  138576 rw---   [ anon ]
+00007fd51ac71000       0       0       0 rw---   [ anon ]
+00007fd523891000   60928   60928   60668 rw---   [ anon ]
+00007fd523891000       0       0       0 rw---   [ anon ]
+00007fd527412000   67584   67584   67584 rw---   [ anon ]
+00007fd527412000       0       0       0 rw---   [ anon ]
+00007fd52b620000  113664  113664  113664 rw---   [ anon ]
+00007fd52b620000       0       0       0 rw---   [ anon ]
+00007fd532526000  113152  113152  113152 rw---   [ anon ]
+00007fd532526000       0       0       0 rw---   [ anon ]
+00007fd5393ab000  106752  106752   68596 rw---   [ anon ]
+00007fd5393ab000       0       0       0 rw---   [ anon ]
+00007fd53fbf7000   95232   95232   21624 rw---   [ anon ]
+00007fd53fbf7000       0       0       0 rw---   [ anon ]
+00007fd545910000   84480   84480   82944 rw---   [ anon ]
+00007fd545910000       0       0       0 rw---   [ anon ]
+00007fd54abbb000   75264   75264   75264 rw---   [ anon ]
+00007fd54abbb000       0       0       0 rw---   [ anon ]
+00007fd54f53e000   67072   67072   67072 rw---   [ anon ]
+00007fd54f53e000       0       0       0 rw---   [ anon ]
+00007fd5536dd000   59648   59648   59648 rw---   [ anon ]
+00007fd5536dd000       0       0       0 rw---   [ anon ]
+00007fd55715c000   52480   52480   52480 rw---   [ anon ]
+00007fd55715c000       0       0       0 rw---   [ anon ]
+00007fd55a4bf000   47616   47616   34668 rw---   [ anon ]
+00007fd55a4bf000       0       0       0 rw---   [ anon ]
+00007fd55d349000   42240   42240   40400 rw---   [ anon ]
+00007fd55d349000       0       0       0 rw---   [ anon ]
+00007fd55fcbc000   37888   37888    3964 rw---   [ anon ]
+00007fd55fcbc000       0       0       0 rw---   [ anon ]
+00007fd5621dc000    6912    6912     936 rw---   [ anon ]
+00007fd5621dc000       0       0       0 rw---   [ anon ]
+00007fd5628b7000  364544  364544  308388 rw---   [ anon ]
+00007fd5628b7000       0       0       0 rw---   [ anon ]
+00007fd578cba000   98048   98048   91576 rw---   [ anon ]
+00007fd578cba000       0       0       0 rw---   [ anon ]
+00007fd57ec92000  216576  216576  203176 rw---   [ anon ]
+00007fd57ec92000       0       0       0 rw---   [ anon ]
+00007fd58c035000  195840  195840  140844 rw---   [ anon ]
+00007fd58c035000       0       0       0 rw---   [ anon ]
+00007fd597fb1000  149504  149504  147348 rw---   [ anon ]
+00007fd597fb1000       0       0       0 rw---   [ anon ]
+00007fd5a11d0000   49408   49408   46380 rw---   [ anon ]
+00007fd5a11d0000       0       0       0 rw---   [ anon ]
+00007fd5a4230000   59904   59904   57040 rw---   [ anon ]
+00007fd5a4230000       0       0       0 rw---   [ anon ]
+00007fd5a7cb1000  125696  125696   33736 rw---   [ anon ]
+00007fd5a7cb1000       0       0       0 rw---   [ anon ]
+00007fd5af7b0000    7680    7680    7680 rw---   [ anon ]
+00007fd5af7b0000       0       0       0 rw---   [ anon ]
+00007fd5aff3e000  174336  174336  174336 rw---   [ anon ]
+00007fd5aff3e000       0       0       0 rw---   [ anon ]
+00007fd5ba984000   21248   21248   21248 rw---   [ anon ]
+00007fd5ba984000       0       0       0 rw---   [ anon ]
+00007fd5bbe67000  136192  136192  136192 rw---   [ anon ]
+00007fd5bbe67000       0       0       0 rw---   [ anon ]
+00007fd5c436c000   39424   39424   19264 rw---   [ anon ]
+00007fd5c436c000       0       0       0 rw---   [ anon ]
+00007fd5c69f6000  102144  102144   79612 rw---   [ anon ]
+00007fd5c69f6000       0       0       0 rw---   [ anon ]
+00007fd5ccdc2000   51968   51968   51968 rw---   [ anon ]
+00007fd5ccdc2000       0       0       0 rw---   [ anon ]
+00007fd5d00b5000   74496   74496   74024 rw---   [ anon ]
+00007fd5d00b5000       0       0       0 rw---   [ anon ]
+00007fd5d498e000   61440   61440   61440 rw---   [ anon ]
+00007fd5d498e000       0       0       0 rw---   [ anon ]
+00007fd5d85ae000   54016   54016   54016 rw---   [ anon ]
+00007fd5d85ae000       0       0       0 rw---   [ anon ]
+00007fd5dba99000  102400  102400  102400 rw---   [ anon ]
+00007fd5dba99000       0       0       0 rw---   [ anon ]
+00007fd5e1e9c000   91904   91904   27024 rw---   [ anon ]
+00007fd5e1e9c000       0       0       0 rw---   [ anon ]
+00007fd5e787b000   82176   82176   27644 rw---   [ anon ]
+00007fd5e787b000       0       0       0 rw---   [ anon ]
+00007fd5ec8fa000   73728   73728   66604 rw---   [ anon ]
+00007fd5ec8fa000       0       0       0 rw---   [ anon ]
+00007fd5f111d000   65024   65024   65012 rw---   [ anon ]
+00007fd5f111d000       0       0       0 rw---   [ anon ]
+00007fd5f50a7000   58624   58624   38824 rw---   [ anon ]
+00007fd5f50a7000       0       0       0 rw---   [ anon ]
+00007fd5f8a1a000   52992   52992   33556 rw---   [ anon ]
+00007fd5f8a1a000       0       0       0 rw---   [ anon ]
+00007fd5fbdfa000  703232  437052  373412 rw---   [ anon ]
+00007fd5fbdfa000       0       0       0 rw---   [ anon ]
+00007fd626cba000      12       0       0 r-x-- _lsap_module.cpython-36m-x86_64-linux-gnu.so
+00007fd626cba000       0       0       0 r-x-- _lsap_module.cpython-36m-x86_64-linux-gnu.so
+00007fd626cbd000    2044       0       0 ----- _lsap_module.cpython-36m-x86_64-linux-gnu.so
+00007fd626cbd000       0       0       0 ----- _lsap_module.cpython-36m-x86_64-linux-gnu.so
+00007fd626ebc000       4       0       0 rw--- _lsap_module.cpython-36m-x86_64-linux-gnu.so
+00007fd626ebc000       0       0       0 rw--- _lsap_module.cpython-36m-x86_64-linux-gnu.so
+00007fd626ebd000     240       0       0 r-x-- _bglu_dense.cpython-36m-x86_64-linux-gnu.so
+00007fd626ebd000       0       0       0 r-x-- _bglu_dense.cpython-36m-x86_64-linux-gnu.so
+00007fd626ef9000    2048       0       0 ----- _bglu_dense.cpython-36m-x86_64-linux-gnu.so
+00007fd626ef9000       0       0       0 ----- _bglu_dense.cpython-36m-x86_64-linux-gnu.so
+00007fd6270f9000      20       0       0 rw--- _bglu_dense.cpython-36m-x86_64-linux-gnu.so
+00007fd6270f9000       0       0       0 rw--- _bglu_dense.cpython-36m-x86_64-linux-gnu.so
+00007fd6270fe000     260     180     180 rw---   [ anon ]
+00007fd6270fe000       0       0       0 rw---   [ anon ]
+00007fd62713f000      40       0       0 r-x-- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd62713f000       0       0       0 r-x-- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd627149000    2048       0       0 ----- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd627149000       0       0       0 ----- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd627349000       4       0       0 rw--- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd627349000       0       0       0 rw--- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd62734a000       8       0       0 rw--- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd62734a000       0       0       0 rw--- __nnls.cpython-36m-x86_64-linux-gnu.so
+00007fd62734c000      12       0       0 r-x-- _zeros.cpython-36m-x86_64-linux-gnu.so
+00007fd62734c000       0       0       0 r-x-- _zeros.cpython-36m-x86_64-linux-gnu.so
+00007fd62734f000    2044       0       0 ----- _zeros.cpython-36m-x86_64-linux-gnu.so
+00007fd62734f000       0       0       0 ----- _zeros.cpython-36m-x86_64-linux-gnu.so
+00007fd62754e000       4       0       0 rw--- _zeros.cpython-36m-x86_64-linux-gnu.so
+00007fd62754e000       0       0       0 rw--- _zeros.cpython-36m-x86_64-linux-gnu.so
+00007fd62754f000     256     164     164 rw---   [ anon ]
+00007fd62754f000       0       0       0 rw---   [ anon ]
+00007fd62758f000     148       0       0 r-x-- givens_elimination.cpython-36m-x86_64-linux-gnu.so
+00007fd62758f000       0       0       0 r-x-- givens_elimination.cpython-36m-x86_64-linux-gnu.so
+00007fd6275b4000    2044       0       0 ----- givens_elimination.cpython-36m-x86_64-linux-gnu.so
+00007fd6275b4000       0       0       0 ----- givens_elimination.cpython-36m-x86_64-linux-gnu.so
+00007fd6277b3000      12       0       0 rw--- givens_elimination.cpython-36m-x86_64-linux-gnu.so
+00007fd6277b3000       0       0       0 rw--- givens_elimination.cpython-36m-x86_64-linux-gnu.so
+00007fd6277b6000       4       0       0 rw---   [ anon ]
+00007fd6277b6000       0       0       0 rw---   [ anon ]
+00007fd6277b7000     124       0       0 r-x-- _minpack.cpython-36m-x86_64-linux-gnu.so
+00007fd6277b7000       0       0       0 r-x-- _minpack.cpython-36m-x86_64-linux-gnu.so
+00007fd6277d6000    2048       0       0 ----- _minpack.cpython-36m-x86_64-linux-gnu.so
+00007fd6277d6000       0       0       0 ----- _minpack.cpython-36m-x86_64-linux-gnu.so
+00007fd6279d6000      12       0       0 rw--- _minpack.cpython-36m-x86_64-linux-gnu.so
+00007fd6279d6000       0       0       0 rw--- _minpack.cpython-36m-x86_64-linux-gnu.so
+00007fd6279d9000      96       0       0 r-x-- _slsqp.cpython-36m-x86_64-linux-gnu.so
+00007fd6279d9000       0       0       0 r-x-- _slsqp.cpython-36m-x86_64-linux-gnu.so
+00007fd6279f1000    2044       0       0 ----- _slsqp.cpython-36m-x86_64-linux-gnu.so
+00007fd6279f1000       0       0       0 ----- _slsqp.cpython-36m-x86_64-linux-gnu.so
+00007fd627bf0000      16       0       0 rw--- _slsqp.cpython-36m-x86_64-linux-gnu.so
+00007fd627bf0000       0       0       0 rw--- _slsqp.cpython-36m-x86_64-linux-gnu.so
+00007fd627bf4000     120       0       0 r-x-- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627bf4000       0       0       0 r-x-- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627c12000    2048       0       0 ----- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627c12000       0       0       0 ----- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627e12000       4       0       0 rw--- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627e12000       0       0       0 rw--- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627e13000       8       0       0 rw--- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627e13000       0       0       0 rw--- _cobyla.cpython-36m-x86_64-linux-gnu.so
+00007fd627e15000      48       0       0 r-x-- moduleTNC.cpython-36m-x86_64-linux-gnu.so
+00007fd627e15000       0       0       0 r-x-- moduleTNC.cpython-36m-x86_64-linux-gnu.so
+00007fd627e21000    2044       0       0 ----- moduleTNC.cpython-36m-x86_64-linux-gnu.so
+00007fd627e21000       0       0       0 ----- moduleTNC.cpython-36m-x86_64-linux-gnu.so
+00007fd628020000       4       0       0 rw--- moduleTNC.cpython-36m-x86_64-linux-gnu.so
+00007fd628020000       0       0       0 rw--- moduleTNC.cpython-36m-x86_64-linux-gnu.so
+00007fd628021000     120       0       0 r-x-- _lbfgsb.cpython-36m-x86_64-linux-gnu.so
+00007fd628021000       0       0       0 r-x-- _lbfgsb.cpython-36m-x86_64-linux-gnu.so
+00007fd62803f000    2044       0       0 ----- _lbfgsb.cpython-36m-x86_64-linux-gnu.so
+00007fd62803f000       0       0       0 ----- _lbfgsb.cpython-36m-x86_64-linux-gnu.so
+00007fd62823e000      20       0       0 rw--- _lbfgsb.cpython-36m-x86_64-linux-gnu.so
+00007fd62823e000       0       0       0 rw--- _lbfgsb.cpython-36m-x86_64-linux-gnu.so
+00007fd628243000     256     172     172 rw---   [ anon ]
+00007fd628243000       0       0       0 rw---   [ anon ]
+00007fd628283000     280       0       0 r-x-- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd628283000       0       0       0 r-x-- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6282c9000    2048       0       0 ----- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6282c9000       0       0       0 ----- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6284c9000      16       0       0 rw--- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6284c9000       0       0       0 rw--- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6284cd000       4       0       0 rw---   [ anon ]
+00007fd6284cd000       0       0       0 rw---   [ anon ]
+00007fd6284ce000      12       0       0 rw--- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6284ce000       0       0       0 rw--- _trlib.cpython-36m-x86_64-linux-gnu.so
+00007fd6284d1000     256     184     184 rw---   [ anon ]
+00007fd6284d1000       0       0       0 rw---   [ anon ]
+00007fd628511000     160       0       0 r-x-- _group_columns.cpython-36m-x86_64-linux-gnu.so
+00007fd628511000       0       0       0 r-x-- _group_columns.cpython-36m-x86_64-linux-gnu.so
+00007fd628539000    2048       0       0 ----- _group_columns.cpython-36m-x86_64-linux-gnu.so
+00007fd628539000       0       0       0 ----- _group_columns.cpython-36m-x86_64-linux-gnu.so
+00007fd628739000      12       0       0 rw--- _group_columns.cpython-36m-x86_64-linux-gnu.so
+00007fd628739000       0       0       0 rw--- _group_columns.cpython-36m-x86_64-linux-gnu.so
+00007fd62873c000       4       0       0 rw---   [ anon ]
+00007fd62873c000       0       0       0 rw---   [ anon ]
+00007fd62873d000      36       0       0 r-x-- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd62873d000       0       0       0 r-x-- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628746000    2048       0       0 ----- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628746000       0       0       0 ----- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628946000       4       0       0 rw--- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628946000       0       0       0 rw--- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628947000       8       0       0 rw--- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628947000       0       0       0 rw--- minpack2.cpython-36m-x86_64-linux-gnu.so
+00007fd628949000     100       0       0 r-x-- lsoda.cpython-36m-x86_64-linux-gnu.so
+00007fd628949000       0       0       0 r-x-- lsoda.cpython-36m-x86_64-linux-gnu.so
+00007fd628962000    2048       0       0 ----- lsoda.cpython-36m-x86_64-linux-gnu.so
+00007fd628962000       0       0       0 ----- lsoda.cpython-36m-x86_64-linux-gnu.so
+00007fd628b62000      20       4       4 rw--- lsoda.cpython-36m-x86_64-linux-gnu.so
+00007fd628b62000       0       0       0 rw--- lsoda.cpython-36m-x86_64-linux-gnu.so
+00007fd628b67000     108       0       0 r-x-- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628b67000       0       0       0 r-x-- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628b82000    2048       0       0 ----- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628b82000       0       0       0 ----- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628d82000       8       4       4 rw--- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628d82000       0       0       0 rw--- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628d84000       8       0       0 rw--- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628d84000       0       0       0 rw--- _dop.cpython-36m-x86_64-linux-gnu.so
+00007fd628d86000     196       0       0 r-x-- vode.cpython-36m-x86_64-linux-gnu.so
+00007fd628d86000       0       0       0 r-x-- vode.cpython-36m-x86_64-linux-gnu.so
+00007fd628db7000    2044       0       0 ----- vode.cpython-36m-x86_64-linux-gnu.so
+00007fd628db7000       0       0       0 ----- vode.cpython-36m-x86_64-linux-gnu.so
+00007fd628fb6000      28       4       4 rw--- vode.cpython-36m-x86_64-linux-gnu.so
+00007fd628fb6000       0       0       0 rw--- vode.cpython-36m-x86_64-linux-gnu.so
+00007fd628fbd000     256     164     164 rw---   [ anon ]
+00007fd628fbd000       0       0       0 rw---   [ anon ]
+00007fd628ffd000     104       0       0 r-x-- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd628ffd000       0       0       0 r-x-- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629017000    2048       0       0 ----- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629017000       0       0       0 ----- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629217000       4       0       0 rw--- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629217000       0       0       0 rw--- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629218000      12       0       0 rw--- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629218000       0       0       0 rw--- _quadpack.cpython-36m-x86_64-linux-gnu.so
+00007fd62921b000      88       0       0 r-x-- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd62921b000       0       0       0 r-x-- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629231000    2044       0       0 ----- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629231000       0       0       0 ----- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629430000       4       0       0 rw--- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629430000       0       0       0 rw--- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629431000       4       0       0 rw---   [ anon ]
+00007fd629431000       0       0       0 rw---   [ anon ]
+00007fd629432000      12       0       0 rw--- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629432000       0       0       0 rw--- _odepack.cpython-36m-x86_64-linux-gnu.so
+00007fd629435000     256     196     196 rw---   [ anon ]
+00007fd629435000       0       0       0 rw---   [ anon ]
+00007fd629475000     236       0       0 r-x-- kiwisolver.cpython-36m-x86_64-linux-gnu.so
+00007fd629475000       0       0       0 r-x-- kiwisolver.cpython-36m-x86_64-linux-gnu.so
+00007fd6294b0000    2044       0       0 ----- kiwisolver.cpython-36m-x86_64-linux-gnu.so
+00007fd6294b0000       0       0       0 ----- kiwisolver.cpython-36m-x86_64-linux-gnu.so
+00007fd6296af000       8       0       0 rw--- kiwisolver.cpython-36m-x86_64-linux-gnu.so
+00007fd6296af000       0       0       0 rw--- kiwisolver.cpython-36m-x86_64-linux-gnu.so
+00007fd6296b1000     828       0       0 r-x-- ft2font.cpython-36m-x86_64-linux-gnu.so
+00007fd6296b1000       0       0       0 r-x-- ft2font.cpython-36m-x86_64-linux-gnu.so
+00007fd629780000    2048       0       0 ----- ft2font.cpython-36m-x86_64-linux-gnu.so
+00007fd629780000       0       0       0 ----- ft2font.cpython-36m-x86_64-linux-gnu.so
+00007fd629980000      28       0       0 rw--- ft2font.cpython-36m-x86_64-linux-gnu.so
+00007fd629980000       0       0       0 rw--- ft2font.cpython-36m-x86_64-linux-gnu.so
+00007fd629987000    3588    2152    2152 rw---   [ anon ]
+00007fd629987000       0       0       0 rw---   [ anon ]
+00007fd629d08000     548       0       0 r-x-- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629d08000       0       0       0 r-x-- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629d91000    2044       0       0 ----- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629d91000       0       0       0 ----- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629f90000      44       0       0 rw--- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629f90000       0       0       0 rw--- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629f9b000       8       0       0 rw---   [ anon ]
+00007fd629f9b000       0       0       0 rw---   [ anon ]
+00007fd629f9d000      16       0       0 rw--- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629f9d000       0       0       0 rw--- _arpack.cpython-36m-x86_64-linux-gnu.so
+00007fd629fa1000     308       0       0 r-x-- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd629fa1000       0       0       0 r-x-- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd629fee000    2044       0       0 ----- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd629fee000       0       0       0 ----- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd62a1ed000       8       0       0 rw--- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd62a1ed000       0       0       0 rw--- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd62a1ef000      12       0       0 rw--- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd62a1ef000       0       0       0 rw--- _superlu.cpython-36m-x86_64-linux-gnu.so
+00007fd62a1f2000     256     208     208 rw---   [ anon ]
+00007fd62a1f2000       0       0       0 rw---   [ anon ]
+00007fd62a232000     196       0       0 r-x-- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a232000       0       0       0 r-x-- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a263000    2048       0       0 ----- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a263000       0       0       0 ----- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a463000      28       0       0 rw--- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a463000       0       0       0 rw--- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a46a000       8       0       0 rw---   [ anon ]
+00007fd62a46a000       0       0       0 rw---   [ anon ]
+00007fd62a46c000      12       0       0 rw--- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a46c000       0       0       0 rw--- _iterative.cpython-36m-x86_64-linux-gnu.so
+00007fd62a46f000      68       0       0 r-x-- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a46f000       0       0       0 r-x-- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a480000    2044       0       0 ----- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a480000       0       0       0 ----- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a67f000       4       0       0 r---- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a67f000       0       0       0 r---- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a680000       4       0       0 rw--- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a680000       0       0       0 rw--- _json.cpython-36m-x86_64-linux-gnu.so
+00007fd62a681000    4612    2040    2040 rw---   [ anon ]
+00007fd62a681000       0       0       0 rw---   [ anon ]
+00007fd62ab02000     156       0       0 r-x-- _hausdorff.cpython-36m-x86_64-linux-gnu.so
+00007fd62ab02000       0       0       0 r-x-- _hausdorff.cpython-36m-x86_64-linux-gnu.so
+00007fd62ab29000    2048       0       0 ----- _hausdorff.cpython-36m-x86_64-linux-gnu.so
+00007fd62ab29000       0       0       0 ----- _hausdorff.cpython-36m-x86_64-linux-gnu.so
+00007fd62ad29000      12       0       0 rw--- _hausdorff.cpython-36m-x86_64-linux-gnu.so
+00007fd62ad29000       0       0       0 rw--- _hausdorff.cpython-36m-x86_64-linux-gnu.so
+00007fd62ad2c000       4       0       0 rw---   [ anon ]
+00007fd62ad2c000       0       0       0 rw---   [ anon ]
+00007fd62ad2d000      92       0       0 r-x-- _distance_wrap.cpython-36m-x86_64-linux-gnu.so
+00007fd62ad2d000       0       0       0 r-x-- _distance_wrap.cpython-36m-x86_64-linux-gnu.so
+00007fd62ad44000    2048       0       0 ----- _distance_wrap.cpython-36m-x86_64-linux-gnu.so
+00007fd62ad44000       0       0       0 ----- _distance_wrap.cpython-36m-x86_64-linux-gnu.so
+00007fd62af44000       4       0       0 rw--- _distance_wrap.cpython-36m-x86_64-linux-gnu.so
+00007fd62af44000       0       0       0 rw--- _distance_wrap.cpython-36m-x86_64-linux-gnu.so
+00007fd62af45000     256     140     140 rw---   [ anon ]
+00007fd62af45000       0       0       0 rw---   [ anon ]
+00007fd62af85000     156       0       0 r-x-- _voronoi.cpython-36m-x86_64-linux-gnu.so
+00007fd62af85000       0       0       0 r-x-- _voronoi.cpython-36m-x86_64-linux-gnu.so
+00007fd62afac000    2044       0       0 ----- _voronoi.cpython-36m-x86_64-linux-gnu.so
+00007fd62afac000       0       0       0 ----- _voronoi.cpython-36m-x86_64-linux-gnu.so
+00007fd62b1ab000      12       0       0 rw--- _voronoi.cpython-36m-x86_64-linux-gnu.so
+00007fd62b1ab000       0       0       0 rw--- _voronoi.cpython-36m-x86_64-linux-gnu.so
+00007fd62b1ae000       4       0       0 rw---   [ anon ]
+00007fd62b1ae000       0       0       0 rw---   [ anon ]
+00007fd62b1af000      36       0       0 r-x-- messagestream.cpython-36m-x86_64-linux-gnu.so
+00007fd62b1af000       0       0       0 r-x-- messagestream.cpython-36m-x86_64-linux-gnu.so
+00007fd62b1b8000    2044       0       0 ----- messagestream.cpython-36m-x86_64-linux-gnu.so
+00007fd62b1b8000       0       0       0 ----- messagestream.cpython-36m-x86_64-linux-gnu.so
+00007fd62b3b7000       8       0       0 rw--- messagestream.cpython-36m-x86_64-linux-gnu.so
+00007fd62b3b7000       0       0       0 rw--- messagestream.cpython-36m-x86_64-linux-gnu.so
+00007fd62b3b9000     896       0       0 r-x-- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b3b9000       0       0       0 r-x-- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b499000    2044       0       0 ----- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b499000       0       0       0 ----- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b698000      36       0       0 rw--- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b698000       0       0       0 rw--- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b6a1000      12       0       0 rw---   [ anon ]
+00007fd62b6a1000       0       0       0 rw---   [ anon ]
+00007fd62b6a4000      20       0       0 rw--- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b6a4000       0       0       0 rw--- qhull.cpython-36m-x86_64-linux-gnu.so
+00007fd62b6a9000     684       0       0 r-x-- ckdtree.cpython-36m-x86_64-linux-gnu.so
+00007fd62b6a9000       0       0       0 r-x-- ckdtree.cpython-36m-x86_64-linux-gnu.so
+00007fd62b754000    2044       0       0 ----- ckdtree.cpython-36m-x86_64-linux-gnu.so
+00007fd62b754000       0       0       0 ----- ckdtree.cpython-36m-x86_64-linux-gnu.so
+00007fd62b953000      40       0       0 rw--- ckdtree.cpython-36m-x86_64-linux-gnu.so
+00007fd62b953000       0       0       0 rw--- ckdtree.cpython-36m-x86_64-linux-gnu.so
+00007fd62b95d000     264     196     196 rw---   [ anon ]
+00007fd62b95d000       0       0       0 rw---   [ anon ]
+00007fd62b99f000      68       0       0 r-x-- _ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+00007fd62b99f000       0       0       0 r-x-- _ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+00007fd62b9b0000    2044       0       0 ----- _ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+00007fd62b9b0000       0       0       0 ----- _ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+00007fd62bbaf000      20       0       0 rw--- _ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+00007fd62bbaf000       0       0       0 rw--- _ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+00007fd62bbb4000      24       0       0 r-x-- _comb.cpython-36m-x86_64-linux-gnu.so
+00007fd62bbb4000       0       0       0 r-x-- _comb.cpython-36m-x86_64-linux-gnu.so
+00007fd62bbba000    2048       0       0 ----- _comb.cpython-36m-x86_64-linux-gnu.so
+00007fd62bbba000       0       0       0 ----- _comb.cpython-36m-x86_64-linux-gnu.so
+00007fd62bdba000       4       0       0 rw--- _comb.cpython-36m-x86_64-linux-gnu.so
+00007fd62bdba000       0       0       0 rw--- _comb.cpython-36m-x86_64-linux-gnu.so
+00007fd62bdbb000     224       0       0 r-x-- _reordering.cpython-36m-x86_64-linux-gnu.so
+00007fd62bdbb000       0       0       0 r-x-- _reordering.cpython-36m-x86_64-linux-gnu.so
+00007fd62bdf3000    2048       0       0 ----- _reordering.cpython-36m-x86_64-linux-gnu.so
+00007fd62bdf3000       0       0       0 ----- _reordering.cpython-36m-x86_64-linux-gnu.so
+00007fd62bff3000      20       0       0 rw--- _reordering.cpython-36m-x86_64-linux-gnu.so
+00007fd62bff3000       0       0       0 rw--- _reordering.cpython-36m-x86_64-linux-gnu.so
+00007fd62bff8000       4       0       0 rw---   [ anon ]
+00007fd62bff8000       0       0       0 rw---   [ anon ]
+00007fd62bff9000     172       0       0 r-x-- _matching.cpython-36m-x86_64-linux-gnu.so
+00007fd62bff9000       0       0       0 r-x-- _matching.cpython-36m-x86_64-linux-gnu.so
+00007fd62c024000    2044       0       0 ----- _matching.cpython-36m-x86_64-linux-gnu.so
+00007fd62c024000       0       0       0 ----- _matching.cpython-36m-x86_64-linux-gnu.so
+00007fd62c223000      16       0       0 rw--- _matching.cpython-36m-x86_64-linux-gnu.so
+00007fd62c223000       0       0       0 rw--- _matching.cpython-36m-x86_64-linux-gnu.so
+00007fd62c227000       4       0       0 rw---   [ anon ]
+00007fd62c227000       0       0       0 rw---   [ anon ]
+00007fd62c228000     212       0       0 r-x-- _flow.cpython-36m-x86_64-linux-gnu.so
+00007fd62c228000       0       0       0 r-x-- _flow.cpython-36m-x86_64-linux-gnu.so
+00007fd62c25d000    2044       0       0 ----- _flow.cpython-36m-x86_64-linux-gnu.so
+00007fd62c25d000       0       0       0 ----- _flow.cpython-36m-x86_64-linux-gnu.so
+00007fd62c45c000      24       0       0 rw--- _flow.cpython-36m-x86_64-linux-gnu.so
+00007fd62c45c000       0       0       0 rw--- _flow.cpython-36m-x86_64-linux-gnu.so
+00007fd62c462000       4       0       0 rw---   [ anon ]
+00007fd62c462000       0       0       0 rw---   [ anon ]
+00007fd62c463000     164       0       0 r-x-- _min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+00007fd62c463000       0       0       0 r-x-- _min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+00007fd62c48c000    2044       0       0 ----- _min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+00007fd62c48c000       0       0       0 ----- _min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+00007fd62c68b000      16       0       0 rw--- _min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+00007fd62c68b000       0       0       0 rw--- _min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+00007fd62c68f000       4       0       0 rw---   [ anon ]
+00007fd62c68f000       0       0       0 rw---   [ anon ]
+00007fd62c690000     116       0       0 r-x-- _traversal.cpython-36m-x86_64-linux-gnu.so
+00007fd62c690000       0       0       0 r-x-- _traversal.cpython-36m-x86_64-linux-gnu.so
+00007fd62c6ad000    2044       0       0 ----- _traversal.cpython-36m-x86_64-linux-gnu.so
+00007fd62c6ad000       0       0       0 ----- _traversal.cpython-36m-x86_64-linux-gnu.so
+00007fd62c8ac000      20       0       0 rw--- _traversal.cpython-36m-x86_64-linux-gnu.so
+00007fd62c8ac000       0       0       0 rw--- _traversal.cpython-36m-x86_64-linux-gnu.so
+00007fd62c8b1000     128       0       0 r-x-- _tools.cpython-36m-x86_64-linux-gnu.so
+00007fd62c8b1000       0       0       0 r-x-- _tools.cpython-36m-x86_64-linux-gnu.so
+00007fd62c8d1000    2044       0       0 ----- _tools.cpython-36m-x86_64-linux-gnu.so
+00007fd62c8d1000       0       0       0 ----- _tools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cad0000      20       0       0 rw--- _tools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cad0000       0       0       0 rw--- _tools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cad5000       4       0       0 rw---   [ anon ]
+00007fd62cad5000       0       0       0 rw---   [ anon ]
+00007fd62cad6000     344       0       0 r-x-- _shortest_path.cpython-36m-x86_64-linux-gnu.so
+00007fd62cad6000       0       0       0 r-x-- _shortest_path.cpython-36m-x86_64-linux-gnu.so
+00007fd62cb2c000    2044       0       0 ----- _shortest_path.cpython-36m-x86_64-linux-gnu.so
+00007fd62cb2c000       0       0       0 ----- _shortest_path.cpython-36m-x86_64-linux-gnu.so
+00007fd62cd2b000      36       0       0 rw--- _shortest_path.cpython-36m-x86_64-linux-gnu.so
+00007fd62cd2b000       0       0       0 rw--- _shortest_path.cpython-36m-x86_64-linux-gnu.so
+00007fd62cd34000       8       0       0 rw---   [ anon ]
+00007fd62cd34000       0       0       0 rw---   [ anon ]
+00007fd62cd36000     444       0       0 r-x-- _csparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cd36000       0       0       0 r-x-- _csparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cda5000    2048       0       0 ----- _csparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cda5000       0       0       0 ----- _csparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cfa5000      24       0       0 rw--- _csparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cfa5000       0       0       0 rw--- _csparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cfab000      12       0       0 rw---   [ anon ]
+00007fd62cfab000       0       0       0 rw---   [ anon ]
+00007fd62cfae000    3364       0       0 r-x-- _sparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62cfae000       0       0       0 r-x-- _sparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62d2f7000    2048       0       0 ----- _sparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62d2f7000       0       0       0 ----- _sparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62d4f7000       4       0       0 rw--- _sparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62d4f7000       0       0       0 rw--- _sparsetools.cpython-36m-x86_64-linux-gnu.so
+00007fd62d4f8000     564       0       0 r-x-- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d4f8000       0       0       0 r-x-- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d585000    2044       0       0 ----- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d585000       0       0       0 ----- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d784000      16       0       0 rw--- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d784000       0       0       0 rw--- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d788000      84       0       0 rw--- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d788000       0       0       0 rw--- cython_lapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62d79d000     212       0       0 r-x-- cython_blas.cpython-36m-x86_64-linux-gnu.so
+00007fd62d79d000       0       0       0 r-x-- cython_blas.cpython-36m-x86_64-linux-gnu.so
+00007fd62d7d2000    2048       0       0 ----- cython_blas.cpython-36m-x86_64-linux-gnu.so
+00007fd62d7d2000       0       0       0 ----- cython_blas.cpython-36m-x86_64-linux-gnu.so
+00007fd62d9d2000      40       0       0 rw--- cython_blas.cpython-36m-x86_64-linux-gnu.so
+00007fd62d9d2000       0       0       0 rw--- cython_blas.cpython-36m-x86_64-linux-gnu.so
+00007fd62d9dc000     280       0       0 r-x-- _decomp_update.cpython-36m-x86_64-linux-gnu.so
+00007fd62d9dc000       0       0       0 r-x-- _decomp_update.cpython-36m-x86_64-linux-gnu.so
+00007fd62da22000    2048       0       0 ----- _decomp_update.cpython-36m-x86_64-linux-gnu.so
+00007fd62da22000       0       0       0 ----- _decomp_update.cpython-36m-x86_64-linux-gnu.so
+00007fd62dc22000      24       0       0 rw--- _decomp_update.cpython-36m-x86_64-linux-gnu.so
+00007fd62dc22000       0       0       0 rw--- _decomp_update.cpython-36m-x86_64-linux-gnu.so
+00007fd62dc28000       4       0       0 rw---   [ anon ]
+00007fd62dc28000       0       0       0 rw---   [ anon ]
+00007fd62dc29000     196       0       0 r-x-- _solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+00007fd62dc29000       0       0       0 r-x-- _solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+00007fd62dc5a000    2048       0       0 ----- _solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+00007fd62dc5a000       0       0       0 ----- _solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+00007fd62de5a000      16       4       4 rw--- _solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+00007fd62de5a000       0       0       0 rw--- _solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+00007fd62de5e000       4       0       0 rw---   [ anon ]
+00007fd62de5e000       0       0       0 rw---   [ anon ]
+00007fd62de5f000      52       0       0 r-x-- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62de5f000       0       0       0 r-x-- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62de6c000    2048       0       0 ----- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62de6c000       0       0       0 ----- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62e06c000      12       0       0 rw--- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62e06c000       0       0       0 rw--- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62e06f000      12       0       0 rw--- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62e06f000       0       0       0 rw--- _flinalg.cpython-36m-x86_64-linux-gnu.so
+00007fd62e072000    1388       0       0 r-x-- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e072000       0       0       0 r-x-- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e1cd000    2044       0       0 ----- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e1cd000       0       0       0 ----- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e3cc000     512       0       0 rw--- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e3cc000       0       0       0 rw--- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e44c000       4       0       0 rw---   [ anon ]
+00007fd62e44c000       0       0       0 rw---   [ anon ]
+00007fd62e44d000      36       0       0 rw--- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e44d000       0       0       0 rw--- _flapack.cpython-36m-x86_64-linux-gnu.so
+00007fd62e456000     432       0       0 r-x-- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e456000       0       0       0 r-x-- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e4c2000    2048       0       0 ----- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e4c2000       0       0       0 ----- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e6c2000     152       4       4 rw--- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e6c2000       0       0       0 rw--- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e6e8000      16       0       0 rw--- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e6e8000       0       0       0 rw--- _fblas.cpython-36m-x86_64-linux-gnu.so
+00007fd62e6ec000     704       0       0 r-x-- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e6ec000       0       0       0 r-x-- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e79c000    2044       0       0 ----- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e79c000       0       0       0 ----- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e99b000      20       0       0 rw--- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e99b000       0       0       0 rw--- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e9a0000       8       0       0 rw--- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e9a0000       0       0       0 rw--- specfun.cpython-36m-x86_64-linux-gnu.so
+00007fd62e9a2000     116       0       0 r-x-- _ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+00007fd62e9a2000       0       0       0 r-x-- _ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+00007fd62e9bf000    2044       0       0 ----- _ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+00007fd62e9bf000       0       0       0 ----- _ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+00007fd62ebbe000       8       0       0 rw--- _ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+00007fd62ebbe000       0       0       0 rw--- _ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+00007fd62ebc0000   65536       0       0 rw---   [ anon ]
+00007fd62ebc0000       0       0       0 rw---   [ anon ]
+00007fd632bc0000       4       0       0 -----   [ anon ]
+00007fd632bc0000       0       0       0 -----   [ anon ]
+00007fd632bc1000    8192       0       0 rw---   [ anon ]
+00007fd632bc1000       0       0       0 rw---   [ anon ]
+00007fd6333c1000   32768       0       0 rw---   [ anon ]
+00007fd6333c1000       0       0       0 rw---   [ anon ]
+00007fd6353c1000       4       0       0 -----   [ anon ]
+00007fd6353c1000       0       0       0 -----   [ anon ]
+00007fd6353c2000    8192       0       0 rw---   [ anon ]
+00007fd6353c2000       0       0       0 rw---   [ anon ]
+00007fd635bc2000   32768       0       0 rw---   [ anon ]
+00007fd635bc2000       0       0       0 rw---   [ anon ]
+00007fd637bc2000       4       0       0 -----   [ anon ]
+00007fd637bc2000       0       0       0 -----   [ anon ]
+00007fd637bc3000    8192       0       0 rw---   [ anon ]
+00007fd637bc3000       0       0       0 rw---   [ anon ]
+00007fd6383c3000 1933312       0       0 rw---   [ anon ]
+00007fd6383c3000       0       0       0 rw---   [ anon ]
+00007fd6ae3c3000   27320       0       0 r-x-- libopenblasp-r0-085ca80a.3.9.so
+00007fd6ae3c3000       0       0       0 r-x-- libopenblasp-r0-085ca80a.3.9.so
+00007fd6afe71000    2048       0       0 ----- libopenblasp-r0-085ca80a.3.9.so
+00007fd6afe71000       0       0       0 ----- libopenblasp-r0-085ca80a.3.9.so
+00007fd6b0071000     104       0       0 rw--- libopenblasp-r0-085ca80a.3.9.so
+00007fd6b0071000       0       0       0 rw--- libopenblasp-r0-085ca80a.3.9.so
+00007fd6b008b000      44       0       0 rw---   [ anon ]
+00007fd6b008b000       0       0       0 rw---   [ anon ]
+00007fd6b0096000     488       0       0 rw--- libopenblasp-r0-085ca80a.3.9.so
+00007fd6b0096000       0       0       0 rw--- libopenblasp-r0-085ca80a.3.9.so
+00007fd6b0110000    1792    1204    1204 rw---   [ anon ]
+00007fd6b0110000       0       0       0 rw---   [ anon ]
+00007fd6b02d0000     616       0       0 r-x-- _generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b02d0000       0       0       0 r-x-- _generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b036a000    2048       0       0 ----- _generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b036a000       0       0       0 ----- _generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b056a000     144       0       0 rw--- _generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b056a000       0       0       0 rw--- _generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b058e000      12       0       0 rw---   [ anon ]
+00007fd6b058e000       0       0       0 rw---   [ anon ]
+00007fd6b0591000      44       0       0 r-x-- _sfc64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0591000       0       0       0 r-x-- _sfc64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b059c000    2044       0       0 ----- _sfc64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b059c000       0       0       0 ----- _sfc64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b079b000       8       0       0 rw--- _sfc64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b079b000       0       0       0 rw--- _sfc64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b079d000      56       0       0 r-x-- _pcg64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b079d000       0       0       0 r-x-- _pcg64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b07ab000    2048       0       0 ----- _pcg64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b07ab000       0       0       0 ----- _pcg64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b09ab000       8       0       0 rw--- _pcg64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b09ab000       0       0       0 rw--- _pcg64.cpython-36m-x86_64-linux-gnu.so
+00007fd6b09ad000      68       0       0 r-x-- _philox.cpython-36m-x86_64-linux-gnu.so
+00007fd6b09ad000       0       0       0 r-x-- _philox.cpython-36m-x86_64-linux-gnu.so
+00007fd6b09be000    2044       0       0 ----- _philox.cpython-36m-x86_64-linux-gnu.so
+00007fd6b09be000       0       0       0 ----- _philox.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0bbd000       8       0       0 rw--- _philox.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0bbd000       0       0       0 rw--- _philox.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0bbf000       4       0       0 rw---   [ anon ]
+00007fd6b0bbf000       0       0       0 rw---   [ anon ]
+00007fd6b0bc0000      76       0       0 r-x-- _mt19937.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0bc0000       0       0       0 r-x-- _mt19937.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0bd3000    2048       0       0 ----- _mt19937.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0bd3000       0       0       0 ----- _mt19937.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0dd3000       8       0       0 rw--- _mt19937.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0dd3000       0       0       0 rw--- _mt19937.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0dd5000       4       0       0 rw---   [ anon ]
+00007fd6b0dd5000       0       0       0 rw---   [ anon ]
+00007fd6b0dd6000     340       0       0 r-x-- _bounded_integers.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0dd6000       0       0       0 r-x-- _bounded_integers.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0e2b000    2044       0       0 ----- _bounded_integers.cpython-36m-x86_64-linux-gnu.so
+00007fd6b0e2b000       0       0       0 ----- _bounded_integers.cpython-36m-x86_64-linux-gnu.so
+00007fd6b102a000       8       0       0 rw--- _bounded_integers.cpython-36m-x86_64-linux-gnu.so
+00007fd6b102a000       0       0       0 rw--- _bounded_integers.cpython-36m-x86_64-linux-gnu.so
+00007fd6b102c000       8       0       0 rw---   [ anon ]
+00007fd6b102c000       0       0       0 rw---   [ anon ]
+00007fd6b102e000     236       0       0 r-x-- _common.cpython-36m-x86_64-linux-gnu.so
+00007fd6b102e000       0       0       0 r-x-- _common.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1069000    2044       0       0 ----- _common.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1069000       0       0       0 ----- _common.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1268000      12       0       0 rw--- _common.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1268000       0       0       0 rw--- _common.cpython-36m-x86_64-linux-gnu.so
+00007fd6b126b000       4       0       0 rw---   [ anon ]
+00007fd6b126b000       0       0       0 rw---   [ anon ]
+00007fd6b127d000     512     372     372 rw---   [ anon ]
+00007fd6b127d000       0       0       0 rw---   [ anon ]
+00007fd6b12fd000     156       0       0 r-x-- bit_generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b12fd000       0       0       0 r-x-- bit_generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1324000    2044       0       0 ----- bit_generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1324000       0       0       0 ----- bit_generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1523000      20       4       4 rw--- bit_generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1523000       0       0       0 rw--- bit_generator.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1528000       4       0       0 rw---   [ anon ]
+00007fd6b1528000       0       0       0 rw---   [ anon ]
+00007fd6b1529000     496       0       0 r-x-- mtrand.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1529000       0       0       0 r-x-- mtrand.cpython-36m-x86_64-linux-gnu.so
+00007fd6b15a5000    2044       0       0 ----- mtrand.cpython-36m-x86_64-linux-gnu.so
+00007fd6b15a5000       0       0       0 ----- mtrand.cpython-36m-x86_64-linux-gnu.so
+00007fd6b17a4000     152       0       0 rw--- mtrand.cpython-36m-x86_64-linux-gnu.so
+00007fd6b17a4000       0       0       0 rw--- mtrand.cpython-36m-x86_64-linux-gnu.so
+00007fd6b17ca000     268     192     192 rw---   [ anon ]
+00007fd6b17ca000       0       0       0 rw---   [ anon ]
+00007fd6b180d000      84       0       0 r-x-- _pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b180d000       0       0       0 r-x-- _pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1822000    2044       0       0 ----- _pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1822000       0       0       0 ----- _pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1a21000       4       0       0 rw--- _pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1a21000       0       0       0 rw--- _pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1a22000     256     168     168 rw---   [ anon ]
+00007fd6b1a22000       0       0       0 rw---   [ anon ]
+00007fd6b1a62000     220       0       0 r-x-- libmpdec.so.2.4.2
+00007fd6b1a62000       0       0       0 r-x-- libmpdec.so.2.4.2
+00007fd6b1a99000    2044       0       0 ----- libmpdec.so.2.4.2
+00007fd6b1a99000       0       0       0 ----- libmpdec.so.2.4.2
+00007fd6b1c98000       4       0       0 r---- libmpdec.so.2.4.2
+00007fd6b1c98000       0       0       0 r---- libmpdec.so.2.4.2
+00007fd6b1c99000       4       0       0 rw--- libmpdec.so.2.4.2
+00007fd6b1c99000       0       0       0 rw--- libmpdec.so.2.4.2
+00007fd6b1c9a000     136       0       0 r-x-- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1c9a000       0       0       0 r-x-- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1cbc000    2044       0       0 ----- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1cbc000       0       0       0 ----- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1ebb000       4       0       0 r---- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1ebb000       0       0       0 r---- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1ebc000      36       0       0 rw--- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1ebc000       0       0       0 rw--- _decimal.cpython-36m-x86_64-linux-gnu.so
+00007fd6b1ec5000     144       0       0 r-x-- liblzma.so.5.2.2
+00007fd6b1ec5000       0       0       0 r-x-- liblzma.so.5.2.2
+00007fd6b1ee9000    2048       0       0 ----- liblzma.so.5.2.2
+00007fd6b1ee9000       0       0       0 ----- liblzma.so.5.2.2
+00007fd6b20e9000       4       0       0 r---- liblzma.so.5.2.2
+00007fd6b20e9000       0       0       0 r---- liblzma.so.5.2.2
+00007fd6b20ea000       4       0       0 rw--- liblzma.so.5.2.2
+00007fd6b20ea000       0       0       0 rw--- liblzma.so.5.2.2
+00007fd6b20eb000      24       0       0 r-x-- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b20eb000       0       0       0 r-x-- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b20f1000    2044       0       0 ----- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b20f1000       0       0       0 ----- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b22f0000       4       0       0 r---- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b22f0000       0       0       0 r---- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b22f1000       8       0       0 rw--- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b22f1000       0       0       0 rw--- _lzma.cpython-36m-x86_64-linux-gnu.so
+00007fd6b22f3000      60       0       0 r-x-- libbz2.so.1.0.4
+00007fd6b22f3000       0       0       0 r-x-- libbz2.so.1.0.4
+00007fd6b2302000    2044       0       0 ----- libbz2.so.1.0.4
+00007fd6b2302000       0       0       0 ----- libbz2.so.1.0.4
+00007fd6b2501000       4       0       0 r---- libbz2.so.1.0.4
+00007fd6b2501000       0       0       0 r---- libbz2.so.1.0.4
+00007fd6b2502000       4       0       0 rw--- libbz2.so.1.0.4
+00007fd6b2502000       0       0       0 rw--- libbz2.so.1.0.4
+00007fd6b2503000      16       0       0 r-x-- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2503000       0       0       0 r-x-- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2507000    2044       0       0 ----- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2507000       0       0       0 ----- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2706000       4       0       0 r---- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2706000       0       0       0 r---- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2707000       4       0       0 rw--- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2707000       0       0       0 rw--- _bz2.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2708000     768     596     596 rw---   [ anon ]
+00007fd6b2708000       0       0       0 rw---   [ anon ]
+00007fd6b27c8000     172       0       0 r-x-- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b27c8000       0       0       0 r-x-- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b27f3000    2048       0       0 ----- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b27f3000       0       0       0 ----- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29f3000       8       0       0 rw--- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29f3000       0       0       0 rw--- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29f5000      12       0       0 rw--- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29f5000       0       0       0 rw--- _umath_linalg.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29f8000      16       0       0 r-x-- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29f8000       0       0       0 r-x-- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29fc000    2048       0       0 ----- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b29fc000       0       0       0 ----- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2bfc000       4       0       0 rw--- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2bfc000       0       0       0 rw--- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2bfd000       8       0       0 rw--- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2bfd000       0       0       0 rw--- lapack_lite.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2bff000     512     344     344 rw---   [ anon ]
+00007fd6b2bff000       0       0       0 rw---   [ anon ]
+00007fd6b2c7f000      28       8       0 r-x-- libffi.so.6.0.4
+00007fd6b2c7f000       0       0       0 r-x-- libffi.so.6.0.4
+00007fd6b2c86000    2044       0       0 ----- libffi.so.6.0.4
+00007fd6b2c86000       0       0       0 ----- libffi.so.6.0.4
+00007fd6b2e85000       4       0       0 r---- libffi.so.6.0.4
+00007fd6b2e85000       0       0       0 r---- libffi.so.6.0.4
+00007fd6b2e86000       4       0       0 rw--- libffi.so.6.0.4
+00007fd6b2e86000       0       0       0 rw--- libffi.so.6.0.4
+00007fd6b2e87000     108       0       0 r-x-- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2e87000       0       0       0 r-x-- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2ea2000    2044       0       0 ----- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b2ea2000       0       0       0 ----- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b30a1000       4       0       0 r---- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b30a1000       0       0       0 r---- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b30a2000      16       8       8 rw--- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b30a2000       0       0       0 rw--- _ctypes.cpython-36m-x86_64-linux-gnu.so
+00007fd6b30a6000     512     396     396 rw---   [ anon ]
+00007fd6b30a6000       0       0       0 rw---   [ anon ]
+00007fd6b3126000     128       0       0 r-x-- _multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+00007fd6b3126000       0       0       0 r-x-- _multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+00007fd6b3146000    2044       0       0 ----- _multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+00007fd6b3146000       0       0       0 ----- _multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+00007fd6b3345000       8       0       0 rw--- _multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+00007fd6b3345000       0       0       0 rw--- _multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+00007fd6b3347000    1792    1296    1296 rw---   [ anon ]
+00007fd6b3347000       0       0       0 rw---   [ anon ]
+00007fd6b3507000  131072       0       0 rw---   [ anon ]
+00007fd6b3507000       0       0       0 rw---   [ anon ]
+00007fd6bb510000     256     124     124 rw---   [ anon ]
+00007fd6bb510000       0       0       0 rw---   [ anon ]
+00007fd6bb550000  655360       0       0 rw---   [ anon ]
+00007fd6bb550000       0       0       0 rw---   [ anon ]
+00007fd6e3550000       4       0       0 -----   [ anon ]
+00007fd6e3550000       0       0       0 -----   [ anon ]
+00007fd6e3551000    8192       0       0 rw---   [ anon ]
+00007fd6e3551000       0       0       0 rw---   [ anon ]
+00007fd6e3d51000       4       0       0 -----   [ anon ]
+00007fd6e3d51000       0       0       0 -----   [ anon ]
+00007fd6e3d52000    8192       0       0 rw---   [ anon ]
+00007fd6e3d52000       0       0       0 rw---   [ anon ]
+00007fd6e4552000       4       0       0 -----   [ anon ]
+00007fd6e4552000       0       0       0 -----   [ anon ]
+00007fd6e4553000    8192       0       0 rw---   [ anon ]
+00007fd6e4553000       0       0       0 rw---   [ anon ]
+00007fd6e4d53000  262144       0       0 rw---   [ anon ]
+00007fd6e4d53000       0       0       0 rw---   [ anon ]
+00007fd6f4d53000       4       0       0 -----   [ anon ]
+00007fd6f4d53000       0       0       0 -----   [ anon ]
+00007fd6f4d54000    8192       0       0 rw---   [ anon ]
+00007fd6f4d54000       0       0       0 rw---   [ anon ]
+00007fd6f5554000       4       0       0 -----   [ anon ]
+00007fd6f5554000       0       0       0 -----   [ anon ]
+00007fd6f5555000    8192       0       0 rw---   [ anon ]
+00007fd6f5555000       0       0       0 rw---   [ anon ]
+00007fd6f5d55000       4       0       0 -----   [ anon ]
+00007fd6f5d55000       0       0       0 -----   [ anon ]
+00007fd6f5d56000    8192       0       0 rw---   [ anon ]
+00007fd6f5d56000       0       0       0 rw---   [ anon ]
+00007fd6f6556000  131072       0       0 rw---   [ anon ]
+00007fd6f6556000       0       0       0 rw---   [ anon ]
+00007fd6fe556000       4       0       0 -----   [ anon ]
+00007fd6fe556000       0       0       0 -----   [ anon ]
+00007fd6fe557000    8192       0       0 rw---   [ anon ]
+00007fd6fe557000       0       0       0 rw---   [ anon ]
+00007fd6fed57000       4       0       0 -----   [ anon ]
+00007fd6fed57000       0       0       0 -----   [ anon ]
+00007fd6fed58000    8192       0       0 rw---   [ anon ]
+00007fd6fed58000       0       0       0 rw---   [ anon ]
+00007fd6ff558000  131072       0       0 rw---   [ anon ]
+00007fd6ff558000       0       0       0 rw---   [ anon ]
+00007fd707558000       4       0       0 -----   [ anon ]
+00007fd707558000       0       0       0 -----   [ anon ]
+00007fd707559000    8192       0       0 rw---   [ anon ]
+00007fd707559000       0       0       0 rw---   [ anon ]
+00007fd707d59000  131072       0       0 rw---   [ anon ]
+00007fd707d59000       0       0       0 rw---   [ anon ]
+00007fd70fd59000       4       0       0 -----   [ anon ]
+00007fd70fd59000       0       0       0 -----   [ anon ]
+00007fd70fd5a000    8192       0       0 rw---   [ anon ]
+00007fd70fd5a000       0       0       0 rw---   [ anon ]
+00007fd71055a000  131072       0       0 rw---   [ anon ]
+00007fd71055a000       0       0       0 rw---   [ anon ]
+00007fd71855a000       4       0       0 -----   [ anon ]
+00007fd71855a000       0       0       0 -----   [ anon ]
+00007fd71855b000    8192       0       0 rw---   [ anon ]
+00007fd71855b000       0       0       0 rw---   [ anon ]
+00007fd718d5b000  393216       0       0 rw---   [ anon ]
+00007fd718d5b000       0       0       0 rw---   [ anon ]
+00007fd730d5b000       4       0       0 -----   [ anon ]
+00007fd730d5b000       0       0       0 -----   [ anon ]
+00007fd730d5c000    8192       0       0 rw---   [ anon ]
+00007fd730d5c000       0       0       0 rw---   [ anon ]
+00007fd73155c000       4       0       0 -----   [ anon ]
+00007fd73155c000       0       0       0 -----   [ anon ]
+00007fd73155d000    8192       0       0 rw---   [ anon ]
+00007fd73155d000       0       0       0 rw---   [ anon ]
+00007fd731d5d000       4       0       0 -----   [ anon ]
+00007fd731d5d000       0       0       0 -----   [ anon ]
+00007fd731d5e000    8192       0       0 rw---   [ anon ]
+00007fd731d5e000       0       0       0 rw---   [ anon ]
+00007fd73255e000  131072       0       0 rw---   [ anon ]
+00007fd73255e000       0       0       0 rw---   [ anon ]
+00007fd73a55e000       4       0       0 -----   [ anon ]
+00007fd73a55e000       0       0       0 -----   [ anon ]
+00007fd73a55f000    8192       0       0 rw---   [ anon ]
+00007fd73a55f000       0       0       0 rw---   [ anon ]
+00007fd73ad5f000  262144       0       0 rw---   [ anon ]
+00007fd73ad5f000       0       0       0 rw---   [ anon ]
+00007fd74ad5f000       4       0       0 -----   [ anon ]
+00007fd74ad5f000       0       0       0 -----   [ anon ]
+00007fd74ad60000    8192       0       0 rw---   [ anon ]
+00007fd74ad60000       0       0       0 rw---   [ anon ]
+00007fd74b560000  131072       0       0 rw---   [ anon ]
+00007fd74b560000       0       0       0 rw---   [ anon ]
+00007fd753560000       4       0       0 -----   [ anon ]
+00007fd753560000       0       0       0 -----   [ anon ]
+00007fd753561000    8192       0       0 rw---   [ anon ]
+00007fd753561000       0       0       0 rw---   [ anon ]
+00007fd753d61000       4       0       0 -----   [ anon ]
+00007fd753d61000       0       0       0 -----   [ anon ]
+00007fd753d62000    8192       0       0 rw---   [ anon ]
+00007fd753d62000       0       0       0 rw---   [ anon ]
+00007fd754562000  131072       0       0 rw---   [ anon ]
+00007fd754562000       0       0       0 rw---   [ anon ]
+00007fd75c562000       4       0       0 -----   [ anon ]
+00007fd75c562000       0       0       0 -----   [ anon ]
+00007fd75c563000    8192       0       0 rw---   [ anon ]
+00007fd75c563000       0       0       0 rw---   [ anon ]
+00007fd75cd63000  131072       0       0 rw---   [ anon ]
+00007fd75cd63000       0       0       0 rw---   [ anon ]
+00007fd764d63000       4       0       0 -----   [ anon ]
+00007fd764d63000       0       0       0 -----   [ anon ]
+00007fd764d64000    8192       0       0 rw---   [ anon ]
+00007fd764d64000       0       0       0 rw---   [ anon ]
+00007fd765564000  131072       0       0 rw---   [ anon ]
+00007fd765564000       0       0       0 rw---   [ anon ]
+00007fd76d564000       4       0       0 -----   [ anon ]
+00007fd76d564000       0       0       0 -----   [ anon ]
+00007fd76d565000    8192       0       0 rw---   [ anon ]
+00007fd76d565000       0       0       0 rw---   [ anon ]
+00007fd76dd65000  131072       0       0 rw---   [ anon ]
+00007fd76dd65000       0       0       0 rw---   [ anon ]
+00007fd775d65000       4       0       0 -----   [ anon ]
+00007fd775d65000       0       0       0 -----   [ anon ]
+00007fd775d66000    8192       0       0 rw---   [ anon ]
+00007fd775d66000       0       0       0 rw---   [ anon ]
+00007fd776566000  131072       0       0 rw---   [ anon ]
+00007fd776566000       0       0       0 rw---   [ anon ]
+00007fd77e566000       4       0       0 -----   [ anon ]
+00007fd77e566000       0       0       0 -----   [ anon ]
+00007fd77e567000    8192       0       0 rw---   [ anon ]
+00007fd77e567000       0       0       0 rw---   [ anon ]
+00007fd77ed67000  131072       0       0 rw---   [ anon ]
+00007fd77ed67000       0       0       0 rw---   [ anon ]
+00007fd786d67000       4       0       0 -----   [ anon ]
+00007fd786d67000       0       0       0 -----   [ anon ]
+00007fd786d68000    8192       0       0 rw---   [ anon ]
+00007fd786d68000       0       0       0 rw---   [ anon ]
+00007fd787568000  131072       0       0 rw---   [ anon ]
+00007fd787568000       0       0       0 rw---   [ anon ]
+00007fd78f568000       4       0       0 -----   [ anon ]
+00007fd78f568000       0       0       0 -----   [ anon ]
+00007fd78f569000    8192       0       0 rw---   [ anon ]
+00007fd78f569000       0       0       0 rw---   [ anon ]
+00007fd78fd69000  131072       0       0 rw---   [ anon ]
+00007fd78fd69000       0       0       0 rw---   [ anon ]
+00007fd797d69000       4       0       0 -----   [ anon ]
+00007fd797d69000       0       0       0 -----   [ anon ]
+00007fd797d6a000    8192       0       0 rw---   [ anon ]
+00007fd797d6a000       0       0       0 rw---   [ anon ]
+00007fd79856a000  131072       0       0 rw---   [ anon ]
+00007fd79856a000       0       0       0 rw---   [ anon ]
+00007fd7a056a000       4       0       0 -----   [ anon ]
+00007fd7a056a000       0       0       0 -----   [ anon ]
+00007fd7a056b000    8192       0       0 rw---   [ anon ]
+00007fd7a056b000       0       0       0 rw---   [ anon ]
+00007fd7a0d6b000  131072       0       0 rw---   [ anon ]
+00007fd7a0d6b000       0       0       0 rw---   [ anon ]
+00007fd7a8d6b000       4       0       0 -----   [ anon ]
+00007fd7a8d6b000       0       0       0 -----   [ anon ]
+00007fd7a8d6c000    8192       0       0 rw---   [ anon ]
+00007fd7a8d6c000       0       0       0 rw---   [ anon ]
+00007fd7a956c000  131072       0       0 rw---   [ anon ]
+00007fd7a956c000       0       0       0 rw---   [ anon ]
+00007fd7b156c000       4       0       0 -----   [ anon ]
+00007fd7b156c000       0       0       0 -----   [ anon ]
+00007fd7b156d000    8192       0       0 rw---   [ anon ]
+00007fd7b156d000       0       0       0 rw---   [ anon ]
+00007fd7b1d6d000  131072       0       0 rw---   [ anon ]
+00007fd7b1d6d000       0       0       0 rw---   [ anon ]
+00007fd7b9d6d000       4       0       0 -----   [ anon ]
+00007fd7b9d6d000       0       0       0 -----   [ anon ]
+00007fd7b9d6e000    8192       0       0 rw---   [ anon ]
+00007fd7b9d6e000       0       0       0 rw---   [ anon ]
+00007fd7ba56e000  131072       0       0 rw---   [ anon ]
+00007fd7ba56e000       0       0       0 rw---   [ anon ]
+00007fd7c256e000       4       0       0 -----   [ anon ]
+00007fd7c256e000       0       0       0 -----   [ anon ]
+00007fd7c256f000    8192       0       0 rw---   [ anon ]
+00007fd7c256f000       0       0       0 rw---   [ anon ]
+00007fd7c2d6f000  131072       0       0 rw---   [ anon ]
+00007fd7c2d6f000       0       0       0 rw---   [ anon ]
+00007fd7cad6f000       4       0       0 -----   [ anon ]
+00007fd7cad6f000       0       0       0 -----   [ anon ]
+00007fd7cad70000    8192       0       0 rw---   [ anon ]
+00007fd7cad70000       0       0       0 rw---   [ anon ]
+00007fd7cb570000  131072       0       0 rw---   [ anon ]
+00007fd7cb570000       0       0       0 rw---   [ anon ]
+00007fd7d3570000       4       0       0 -----   [ anon ]
+00007fd7d3570000       0       0       0 -----   [ anon ]
+00007fd7d3571000    8192       0       0 rw---   [ anon ]
+00007fd7d3571000       0       0       0 rw---   [ anon ]
+00007fd7d3d71000  131072       0       0 rw---   [ anon ]
+00007fd7d3d71000       0       0       0 rw---   [ anon ]
+00007fd7dbd71000       4       0       0 -----   [ anon ]
+00007fd7dbd71000       0       0       0 -----   [ anon ]
+00007fd7dbd72000    8192       0       0 rw---   [ anon ]
+00007fd7dbd72000       0       0       0 rw---   [ anon ]
+00007fd7dc572000  131072       0       0 rw---   [ anon ]
+00007fd7dc572000       0       0       0 rw---   [ anon ]
+00007fd7e4572000       4       0       0 -----   [ anon ]
+00007fd7e4572000       0       0       0 -----   [ anon ]
+00007fd7e4573000    8192       0       0 rw---   [ anon ]
+00007fd7e4573000       0       0       0 rw---   [ anon ]
+00007fd7e4d73000  131072       0       0 rw---   [ anon ]
+00007fd7e4d73000       0       0       0 rw---   [ anon ]
+00007fd7ecd73000       4       0       0 -----   [ anon ]
+00007fd7ecd73000       0       0       0 -----   [ anon ]
+00007fd7ecd74000    8192       0       0 rw---   [ anon ]
+00007fd7ecd74000       0       0       0 rw---   [ anon ]
+00007fd7ed574000  131072       0       0 rw---   [ anon ]
+00007fd7ed574000       0       0       0 rw---   [ anon ]
+00007fd7f5574000       4       0       0 -----   [ anon ]
+00007fd7f5574000       0       0       0 -----   [ anon ]
+00007fd7f5575000    8192       0       0 rw---   [ anon ]
+00007fd7f5575000       0       0       0 rw---   [ anon ]
+00007fd7f5d75000  131072       0       0 rw---   [ anon ]
+00007fd7f5d75000       0       0       0 rw---   [ anon ]
+00007fd7fdd75000       4       0       0 -----   [ anon ]
+00007fd7fdd75000       0       0       0 -----   [ anon ]
+00007fd7fdd76000    8192       0       0 rw---   [ anon ]
+00007fd7fdd76000       0       0       0 rw---   [ anon ]
+00007fd7fe576000  131072       0       0 rw---   [ anon ]
+00007fd7fe576000       0       0       0 rw---   [ anon ]
+00007fd806576000       4       0       0 -----   [ anon ]
+00007fd806576000       0       0       0 -----   [ anon ]
+00007fd806577000    8192       0       0 rw---   [ anon ]
+00007fd806577000       0       0       0 rw---   [ anon ]
+00007fd806d77000  131072       0       0 rw---   [ anon ]
+00007fd806d77000       0       0       0 rw---   [ anon ]
+00007fd80ed77000       4       0       0 -----   [ anon ]
+00007fd80ed77000       0       0       0 -----   [ anon ]
+00007fd80ed78000    8192       0       0 rw---   [ anon ]
+00007fd80ed78000       0       0       0 rw---   [ anon ]
+00007fd80f578000  262144       0       0 rw---   [ anon ]
+00007fd80f578000       0       0       0 rw---   [ anon ]
+00007fd81f578000       4       0       0 -----   [ anon ]
+00007fd81f578000       0       0       0 -----   [ anon ]
+00007fd81f579000    8192       0       0 rw---   [ anon ]
+00007fd81f579000       0       0       0 rw---   [ anon ]
+00007fd81fd79000  131072       0       0 rw---   [ anon ]
+00007fd81fd79000       0       0       0 rw---   [ anon ]
+00007fd827d79000       4       0       0 -----   [ anon ]
+00007fd827d79000       0       0       0 -----   [ anon ]
+00007fd827d7a000    8192       0       0 rw---   [ anon ]
+00007fd827d7a000       0       0       0 rw---   [ anon ]
+00007fd82857a000       4       0       0 -----   [ anon ]
+00007fd82857a000       0       0       0 -----   [ anon ]
+00007fd82857b000    8192       0       0 rw---   [ anon ]
+00007fd82857b000       0       0       0 rw---   [ anon ]
+00007fd828d7b000  131072       0       0 rw---   [ anon ]
+00007fd828d7b000       0       0       0 rw---   [ anon ]
+00007fd830d7b000       4       0       0 -----   [ anon ]
+00007fd830d7b000       0       0       0 -----   [ anon ]
+00007fd830d7c000    8192       0       0 rw---   [ anon ]
+00007fd830d7c000       0       0       0 rw---   [ anon ]
+00007fd83157c000  131072       0       0 rw---   [ anon ]
+00007fd83157c000       0       0       0 rw---   [ anon ]
+00007fd83957c000       4       0       0 -----   [ anon ]
+00007fd83957c000       0       0       0 -----   [ anon ]
+00007fd83957d000    8192       0       0 rw---   [ anon ]
+00007fd83957d000       0       0       0 rw---   [ anon ]
+00007fd839d7d000  131072       0       0 rw---   [ anon ]
+00007fd839d7d000       0       0       0 rw---   [ anon ]
+00007fd841d7d000       4       0       0 -----   [ anon ]
+00007fd841d7d000       0       0       0 -----   [ anon ]
+00007fd841d7e000    8192       0       0 rw---   [ anon ]
+00007fd841d7e000       0       0       0 rw---   [ anon ]
+00007fd84257e000  131072       0       0 rw---   [ anon ]
+00007fd84257e000       0       0       0 rw---   [ anon ]
+00007fd84a57e000       4       0       0 -----   [ anon ]
+00007fd84a57e000       0       0       0 -----   [ anon ]
+00007fd84a57f000    8192       0       0 rw---   [ anon ]
+00007fd84a57f000       0       0       0 rw---   [ anon ]
+00007fd84ad7f000  131072       0       0 rw---   [ anon ]
+00007fd84ad7f000       0       0       0 rw---   [ anon ]
+00007fd852d7f000       4       0       0 -----   [ anon ]
+00007fd852d7f000       0       0       0 -----   [ anon ]
+00007fd852d80000    8192       0       0 rw---   [ anon ]
+00007fd852d80000       0       0       0 rw---   [ anon ]
+00007fd853580000  131072       0       0 rw---   [ anon ]
+00007fd853580000       0       0       0 rw---   [ anon ]
+00007fd85b580000       4       0       0 -----   [ anon ]
+00007fd85b580000       0       0       0 -----   [ anon ]
+00007fd85b581000    8192       0       0 rw---   [ anon ]
+00007fd85b581000       0       0       0 rw---   [ anon ]
+00007fd85bd81000  131072       0       0 rw---   [ anon ]
+00007fd85bd81000       0       0       0 rw---   [ anon ]
+00007fd863d81000       4       0       0 -----   [ anon ]
+00007fd863d81000       0       0       0 -----   [ anon ]
+00007fd863d82000    8192       0       0 rw---   [ anon ]
+00007fd863d82000       0       0       0 rw---   [ anon ]
+00007fd864582000  131072       0       0 rw---   [ anon ]
+00007fd864582000       0       0       0 rw---   [ anon ]
+00007fd86c582000       4       0       0 -----   [ anon ]
+00007fd86c582000       0       0       0 -----   [ anon ]
+00007fd86c583000    8192       0       0 rw---   [ anon ]
+00007fd86c583000       0       0       0 rw---   [ anon ]
+00007fd86cd83000  131072       0       0 rw---   [ anon ]
+00007fd86cd83000       0       0       0 rw---   [ anon ]
+00007fd874d83000       4       0       0 -----   [ anon ]
+00007fd874d83000       0       0       0 -----   [ anon ]
+00007fd874d84000    8192       0       0 rw---   [ anon ]
+00007fd874d84000       0       0       0 rw---   [ anon ]
+00007fd875584000  131072       0       0 rw---   [ anon ]
+00007fd875584000       0       0       0 rw---   [ anon ]
+00007fd87d584000       4       0       0 -----   [ anon ]
+00007fd87d584000       0       0       0 -----   [ anon ]
+00007fd87d585000    8192       0       0 rw---   [ anon ]
+00007fd87d585000       0       0       0 rw---   [ anon ]
+00007fd87dd85000  131072       0       0 rw---   [ anon ]
+00007fd87dd85000       0       0       0 rw---   [ anon ]
+00007fd885d85000       4       0       0 -----   [ anon ]
+00007fd885d85000       0       0       0 -----   [ anon ]
+00007fd885d86000    8192       0       0 rw---   [ anon ]
+00007fd885d86000       0       0       0 rw---   [ anon ]
+00007fd886586000  131072       0       0 rw---   [ anon ]
+00007fd886586000       0       0       0 rw---   [ anon ]
+00007fd88e586000       4       0       0 -----   [ anon ]
+00007fd88e586000       0       0       0 -----   [ anon ]
+00007fd88e587000    8192       0       0 rw---   [ anon ]
+00007fd88e587000       0       0       0 rw---   [ anon ]
+00007fd88ed87000  131072       0       0 rw---   [ anon ]
+00007fd88ed87000       0       0       0 rw---   [ anon ]
+00007fd896d87000       4       0       0 -----   [ anon ]
+00007fd896d87000       0       0       0 -----   [ anon ]
+00007fd896d88000    8192       0       0 rw---   [ anon ]
+00007fd896d88000       0       0       0 rw---   [ anon ]
+00007fd897588000  131072       0       0 rw---   [ anon ]
+00007fd897588000       0       0       0 rw---   [ anon ]
+00007fd89f588000       4       0       0 -----   [ anon ]
+00007fd89f588000       0       0       0 -----   [ anon ]
+00007fd89f589000    8192       0       0 rw---   [ anon ]
+00007fd89f589000       0       0       0 rw---   [ anon ]
+00007fd89fd89000  131072       0       0 rw---   [ anon ]
+00007fd89fd89000       0       0       0 rw---   [ anon ]
+00007fd8a7d89000       4       0       0 -----   [ anon ]
+00007fd8a7d89000       0       0       0 -----   [ anon ]
+00007fd8a7d8a000    8192       0       0 rw---   [ anon ]
+00007fd8a7d8a000       0       0       0 rw---   [ anon ]
+00007fd8a858a000  131072       0       0 rw---   [ anon ]
+00007fd8a858a000       0       0       0 rw---   [ anon ]
+00007fd8b058a000       4       0       0 -----   [ anon ]
+00007fd8b058a000       0       0       0 -----   [ anon ]
+00007fd8b058b000    8192       0       0 rw---   [ anon ]
+00007fd8b058b000       0       0       0 rw---   [ anon ]
+00007fd8b0d8b000  131072       0       0 rw---   [ anon ]
+00007fd8b0d8b000       0       0       0 rw---   [ anon ]
+00007fd8b8d8b000       4       0       0 -----   [ anon ]
+00007fd8b8d8b000       0       0       0 -----   [ anon ]
+00007fd8b8d8c000    8192       0       0 rw---   [ anon ]
+00007fd8b8d8c000       0       0       0 rw---   [ anon ]
+00007fd8b958c000  262144       0       0 rw---   [ anon ]
+00007fd8b958c000       0       0       0 rw---   [ anon ]
+00007fd8c9596000    1792    1032    1032 rw---   [ anon ]
+00007fd8c9596000       0       0       0 rw---   [ anon ]
+00007fd8c9756000    1684       0       0 r-x-- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9756000       0       0       0 r-x-- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c98fb000    2044       0       0 ----- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c98fb000       0       0       0 ----- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9afa000      44       4       4 rw--- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9afa000       0       0       0 rw--- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9b05000      36       0       0 rw---   [ anon ]
+00007fd8c9b05000       0       0       0 rw---   [ anon ]
+00007fd8c9b0e000      20       0       0 rw--- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9b0e000       0       0       0 rw--- _ufuncs.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9b13000     708       0       0 r-x-- pypocketfft.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9b13000       0       0       0 r-x-- pypocketfft.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9bc4000    2048       0       0 ----- pypocketfft.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9bc4000       0       0       0 ----- pypocketfft.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9dc4000       8       0       0 rw--- pypocketfft.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9dc4000       0       0       0 rw--- pypocketfft.cpython-36m-x86_64-linux-gnu.so
+00007fd8c9dc6000      16       0       0 rw---   [ anon ]
+00007fd8c9dc6000       0       0       0 rw---   [ anon ]
+00007fd8c9dca000      92       0       0 r-x-- libgcc_s.so.1
+00007fd8c9dca000       0       0       0 r-x-- libgcc_s.so.1
+00007fd8c9de1000    2044       0       0 ----- libgcc_s.so.1
+00007fd8c9de1000       0       0       0 ----- libgcc_s.so.1
+00007fd8c9fe0000       4       0       0 r---- libgcc_s.so.1
+00007fd8c9fe0000       0       0       0 r---- libgcc_s.so.1
+00007fd8c9fe1000       4       0       0 rw--- libgcc_s.so.1
+00007fd8c9fe1000       0       0       0 rw--- libgcc_s.so.1
+00007fd8c9fe2000    1508      12       0 r-x-- libstdc++.so.6.0.25
+00007fd8c9fe2000       0       0       0 r-x-- libstdc++.so.6.0.25
+00007fd8ca15b000    2048       0       0 ----- libstdc++.so.6.0.25
+00007fd8ca15b000       0       0       0 ----- libstdc++.so.6.0.25
+00007fd8ca35b000      40       0       0 r---- libstdc++.so.6.0.25
+00007fd8ca35b000       0       0       0 r---- libstdc++.so.6.0.25
+00007fd8ca365000       8       0       0 rw--- libstdc++.so.6.0.25
+00007fd8ca365000       0       0       0 rw--- libstdc++.so.6.0.25
+00007fd8ca367000      16       0       0 rw---   [ anon ]
+00007fd8ca367000       0       0       0 rw---   [ anon ]
+00007fd8ca36b000      40       0       0 r-x-- _uarray.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca36b000       0       0       0 r-x-- _uarray.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca375000    2048       0       0 ----- _uarray.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca375000       0       0       0 ----- _uarray.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca575000       4       0       0 rw--- _uarray.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca575000       0       0       0 rw--- _uarray.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca576000     512     352     352 rw---   [ anon ]
+00007fd8ca576000       0       0       0 rw---   [ anon ]
+00007fd8ca5f6000      56       0       0 r-x-- _ccallback_c.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca5f6000       0       0       0 r-x-- _ccallback_c.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca604000    2048       0       0 ----- _ccallback_c.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca604000       0       0       0 ----- _ccallback_c.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca804000       8       0       0 rw--- _ccallback_c.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca804000       0       0       0 rw--- _ccallback_c.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca806000    1280    1016    1016 rw---   [ anon ]
+00007fd8ca806000       0       0       0 rw---   [ anon ]
+00007fd8ca946000       4       0       0 r-x-- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca946000       0       0       0 r-x-- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca947000    2044       0       0 ----- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8ca947000       0       0       0 ----- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8cab46000       4       0       0 r---- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8cab46000       0       0       0 r---- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8cab47000       4       0       0 rw--- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8cab47000       0       0       0 rw--- _opcode.cpython-36m-x86_64-linux-gnu.so
+00007fd8cab48000     256     204     204 rw---   [ anon ]
+00007fd8cab48000       0       0       0 rw---   [ anon ]
+00007fd8cab88000      24       0       0 r-x-- libuuid.so.1.3.0
+00007fd8cab88000       0       0       0 r-x-- libuuid.so.1.3.0
+00007fd8cab8e000    2044       0       0 ----- libuuid.so.1.3.0
+00007fd8cab8e000       0       0       0 ----- libuuid.so.1.3.0
+00007fd8cad8d000       4       0       0 r---- libuuid.so.1.3.0
+00007fd8cad8d000       0       0       0 r---- libuuid.so.1.3.0
+00007fd8cad8e000       4       0       0 rw--- libuuid.so.1.3.0
+00007fd8cad8e000       0       0       0 rw--- libuuid.so.1.3.0
+00007fd8cad8f000     960       0       0 r-x-- libgfortran-ed201abd.so.3.0.0
+00007fd8cad8f000       0       0       0 r-x-- libgfortran-ed201abd.so.3.0.0
+00007fd8cae7f000    2044       0       0 ----- libgfortran-ed201abd.so.3.0.0
+00007fd8cae7f000       0       0       0 ----- libgfortran-ed201abd.so.3.0.0
+00007fd8cb07e000       8       0       0 rw--- libgfortran-ed201abd.so.3.0.0
+00007fd8cb07e000       0       0       0 rw--- libgfortran-ed201abd.so.3.0.0
+00007fd8cb080000       4       0       0 rw---   [ anon ]
+00007fd8cb080000       0       0       0 rw---   [ anon ]
+00007fd8cb081000      32       0       0 rw--- libgfortran-ed201abd.so.3.0.0
+00007fd8cb081000       0       0       0 rw--- libgfortran-ed201abd.so.3.0.0
+00007fd8cb089000   27272       0       0 r-x-- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8cb089000       0       0       0 r-x-- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccb2b000    2048       0       0 ----- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccb2b000       0       0       0 ----- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccd2b000     104       0       0 rw--- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccd2b000       0       0       0 rw--- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccd45000      44       0       0 rw---   [ anon ]
+00007fd8ccd45000       0       0       0 rw---   [ anon ]
+00007fd8ccd50000     488       0       0 rw--- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccd50000       0       0       0 rw--- libopenblasp-r0-8a0c371f.3.13.so
+00007fd8ccdca000    3732       0       0 r-x-- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8ccdca000       0       0       0 r-x-- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd16f000    2044       0       0 ----- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd16f000       0       0       0 ----- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd36e000     128      24      24 rw--- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd36e000       0       0       0 rw--- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd38e000     128       8       8 rw---   [ anon ]
+00007fd8cd38e000       0       0       0 rw---   [ anon ]
+00007fd8cd3ae000      28       0       0 rw--- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd3ae000       0       0       0 rw--- _multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd3b5000     256     184     184 rw---   [ anon ]
+00007fd8cd3b5000       0       0       0 rw---   [ anon ]
+00007fd8cd3f5000    2808       0       0 r-x-- libcrypto.so.1.1
+00007fd8cd3f5000       0       0       0 r-x-- libcrypto.so.1.1
+00007fd8cd6b3000    2048       0       0 ----- libcrypto.so.1.1
+00007fd8cd6b3000       0       0       0 ----- libcrypto.so.1.1
+00007fd8cd8b3000     172       0       0 r---- libcrypto.so.1.1
+00007fd8cd8b3000       0       0       0 r---- libcrypto.so.1.1
+00007fd8cd8de000       8       0       0 rw--- libcrypto.so.1.1
+00007fd8cd8de000       0       0       0 rw--- libcrypto.so.1.1
+00007fd8cd8e0000      16       0       0 rw---   [ anon ]
+00007fd8cd8e0000       0       0       0 rw---   [ anon ]
+00007fd8cd905000      24       0       0 r-x-- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd905000       0       0       0 r-x-- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd90b000    2044       0       0 ----- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cd90b000       0       0       0 ----- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cdb0a000       4       0       0 r---- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cdb0a000       0       0       0 r---- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cdb0b000       4       0       0 rw--- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cdb0b000       0       0       0 rw--- _hashlib.cpython-36m-x86_64-linux-gnu.so
+00007fd8cdb0c000    2560    1972    1972 rw---   [ anon ]
+00007fd8cdb0c000       0       0       0 rw---   [ anon ]
+00007fd8cdd8c000    1652       8       0 r-x-- libm-2.27.so
+00007fd8cdd8c000       0       0       0 r-x-- libm-2.27.so
+00007fd8cdf29000    2044       0       0 ----- libm-2.27.so
+00007fd8cdf29000       0       0       0 ----- libm-2.27.so
+00007fd8ce128000       4       0       0 r---- libm-2.27.so
+00007fd8ce128000       0       0       0 r---- libm-2.27.so
+00007fd8ce129000       4       0       0 rw--- libm-2.27.so
+00007fd8ce129000       0       0       0 rw--- libm-2.27.so
+00007fd8ce12a000     112       0       0 r-x-- libz.so.1.2.11
+00007fd8ce12a000       0       0       0 r-x-- libz.so.1.2.11
+00007fd8ce146000    2044       0       0 ----- libz.so.1.2.11
+00007fd8ce146000       0       0       0 ----- libz.so.1.2.11
+00007fd8ce345000       4       0       0 r---- libz.so.1.2.11
+00007fd8ce345000       0       0       0 r---- libz.so.1.2.11
+00007fd8ce346000       4       0       0 rw--- libz.so.1.2.11
+00007fd8ce346000       0       0       0 rw--- libz.so.1.2.11
+00007fd8ce347000     188       0       0 r-x-- libexpat.so.1.6.7
+00007fd8ce347000       0       0       0 r-x-- libexpat.so.1.6.7
+00007fd8ce376000    2048       0       0 ----- libexpat.so.1.6.7
+00007fd8ce376000       0       0       0 ----- libexpat.so.1.6.7
+00007fd8ce576000       8       0       0 r---- libexpat.so.1.6.7
+00007fd8ce576000       0       0       0 r---- libexpat.so.1.6.7
+00007fd8ce578000       4       0       0 rw--- libexpat.so.1.6.7
+00007fd8ce578000       0       0       0 rw--- libexpat.so.1.6.7
+00007fd8ce579000       8       0       0 r-x-- libutil-2.27.so
+00007fd8ce579000       0       0       0 r-x-- libutil-2.27.so
+00007fd8ce57b000    2044       0       0 ----- libutil-2.27.so
+00007fd8ce57b000       0       0       0 ----- libutil-2.27.so
+00007fd8ce77a000       4       0       0 r---- libutil-2.27.so
+00007fd8ce77a000       0       0       0 r---- libutil-2.27.so
+00007fd8ce77b000       4       0       0 rw--- libutil-2.27.so
+00007fd8ce77b000       0       0       0 rw--- libutil-2.27.so
+00007fd8ce77c000      12       4       0 r-x-- libdl-2.27.so
+00007fd8ce77c000       0       0       0 r-x-- libdl-2.27.so
+00007fd8ce77f000    2044       0       0 ----- libdl-2.27.so
+00007fd8ce77f000       0       0       0 ----- libdl-2.27.so
+00007fd8ce97e000       4       0       0 r---- libdl-2.27.so
+00007fd8ce97e000       0       0       0 r---- libdl-2.27.so
+00007fd8ce97f000       4       0       0 rw--- libdl-2.27.so
+00007fd8ce97f000       0       0       0 rw--- libdl-2.27.so
+00007fd8ce980000     104      16       0 r-x-- libpthread-2.27.so
+00007fd8ce980000       0       0       0 r-x-- libpthread-2.27.so
+00007fd8ce99a000    2044       0       0 ----- libpthread-2.27.so
+00007fd8ce99a000       0       0       0 ----- libpthread-2.27.so
+00007fd8ceb99000       4       0       0 r---- libpthread-2.27.so
+00007fd8ceb99000       0       0       0 r---- libpthread-2.27.so
+00007fd8ceb9a000       4       0       0 rw--- libpthread-2.27.so
+00007fd8ceb9a000       0       0       0 rw--- libpthread-2.27.so
+00007fd8ceb9b000      16       0       0 rw---   [ anon ]
+00007fd8ceb9b000       0       0       0 rw---   [ anon ]
+00007fd8ceb9f000    1948      48       0 r-x-- libc-2.27.so
+00007fd8ceb9f000       0       0       0 r-x-- libc-2.27.so
+00007fd8ced86000    2048       0       0 ----- libc-2.27.so
+00007fd8ced86000       0       0       0 ----- libc-2.27.so
+00007fd8cef86000      16       0       0 r---- libc-2.27.so
+00007fd8cef86000       0       0       0 r---- libc-2.27.so
+00007fd8cef8a000       8       0       0 rw--- libc-2.27.so
+00007fd8cef8a000       0       0       0 rw--- libc-2.27.so
+00007fd8cef8c000      16       0       0 rw---   [ anon ]
+00007fd8cef8c000       0       0       0 rw---   [ anon ]
+00007fd8cef90000     164       0       0 r-x-- ld-2.27.so
+00007fd8cef90000       0       0       0 r-x-- ld-2.27.so
+00007fd8ceff4000    1652       0       0 r---- locale-archive
+00007fd8ceff4000       0       0       0 r---- locale-archive
+00007fd8cf191000      20       0       0 rw---   [ anon ]
+00007fd8cf191000       0       0       0 rw---   [ anon ]
+00007fd8cf1af000       4       0       0 rwx--   [ anon ]
+00007fd8cf1af000       0       0       0 rwx--   [ anon ]
+00007fd8cf1b0000      28       0       0 r--s- gconv-modules.cache
+00007fd8cf1b0000       0       0       0 r--s- gconv-modules.cache
+00007fd8cf1b7000       8       0       0 rw---   [ anon ]
+00007fd8cf1b7000       0       0       0 rw---   [ anon ]
+00007fd8cf1b9000       4       0       0 r---- ld-2.27.so
+00007fd8cf1b9000       0       0       0 r---- ld-2.27.so
+00007fd8cf1ba000       4       0       0 rw--- ld-2.27.so
+00007fd8cf1ba000       0       0       0 rw--- ld-2.27.so
+00007fd8cf1bb000       4       0       0 rw---   [ anon ]
+00007fd8cf1bb000       0       0       0 rw---   [ anon ]
+00007fff4182b000     136       8       8 rw---   [ stack ]
+00007fff4182b000       0       0       0 rw---   [ stack ]
+00007fff418fc000      12       0       0 r----   [ anon ]
+00007fff418fc000       0       0       0 r----   [ anon ]
+00007fff418ff000       8       4       0 r-x--   [ anon ]
+00007fff418ff000       0       0       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 r-x--   [ anon ]
+ffffffffff600000       0       0       0 r-x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB         361497320 257408696 241494244
