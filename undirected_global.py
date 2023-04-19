@@ -96,13 +96,18 @@ def main():
     gt = sum(nx.triangles(G).values()) // 3
 
     for i in range(m):
-        locals()[f'node_set_{i + 1}'] = list(G.graph['partition'][i])
         locals()[f'Party{i + 1}'] = Server()
-        locals()[f'Party{i + 1}'].generate_graph(G, locals()[f'node_set_{i + 1}'])
+        locals()[f'Party{i + 1}'].generate_graph(G,
+                                                 list(G.graph['partition'][i]))
+    del G
 
-    for i in range(m):    
-        # generate wedge & triangles —— (sub graph)
-        locals()[f'Party{i + 1}'].compute(list(G.graph['partition']))
+    Severs = [locals()[f'Party1'], locals()[f'Party2'], locals()[f'Party3']]
+    for index, sever in enumerate(Severs):
+        res_severs = Severs[:i] + Severs[i+1:]
+        sever.compute([res_sever.subgraph for res_sever in list(res_severs)])
+        
+    for sever in Severs:
+        del sever
 
     t_start = time()
     for i in range(m):
@@ -121,7 +126,6 @@ def main():
     print("prediction:%f" % estimation)
     print("relative error:%f" % error)
     print("elapse(s):{}".format(t_end-t_start))
-
 
 if __name__ == "__main__":
    # epsilon = int(sys.argv[1])
