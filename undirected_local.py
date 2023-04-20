@@ -15,6 +15,80 @@ from datasketch import HyperLogLogPlusPlus
 import argparse
 from time import time
 
+def triads_by_type(G):
+    if nx.is_directed(G):
+        # 将邻接矩阵存储为NumPy数组
+        adj_mat = np.asarray(nx.to_numpy_matrix(G))
+        # print(adj_mat)
+        lenG = len(G)
+        # 三元组类型和节点元组
+        triads = {
+            # '003': [], '012': [], '102': [],
+            '021D': [], '021U': [], '021C': [], '111D': [], '111U': [], '201': [],
+            # '030T': [], '030C': [],  '120D': [], '120U': [], '120C': [], '210': [], '300': []
+        }
+        for i in range(lenG):
+            for j in range(lenG):
+                for k in range(lenG):
+                    if i == j or i == k or j == k:
+                        continue
+                    # 判断节点 i, j, k 之间的关系
+                    #   v /\ u
+                    #    /__\  
+                    #     w   
+                    # u1,v1,w1 逆时针; u2,v2,w2 顺时针
+                    u1 = int(adj_mat[i, j]) # 1
+                    u2 = int(adj_mat[j, i]) # 2
+                    v1 = int(adj_mat[i, k]) # 4
+                    v2 = int(adj_mat[k, i]) # 8
+                    w1 = int(adj_mat[j, k]) # 16
+                    w2 = int(adj_mat[k, j]) # 32
+                    union_edges = [u1, u2, v1, v2, w1, w2]
+                    type_flag = 0
+                    for index, data in enumerate(union_edges):
+                        type_flag += data << index
+                    triad_type = ''
+                    if type_flag == 6: # u2, v1
+                        triad_type = '021D'
+                    elif type_flag == 9: # u1, v2
+                        triad_type = '021U'
+                    elif type_flag == 10: # u2, v2
+                        triad_type = '021C'
+                    elif type_flag == 52: # v1, w1, w2
+                        triad_type = '111D'
+                    elif type_flag == 56: # v2, w1, w2
+                        triad_type = '111U'
+                    elif type_flag == 6: # v1, v2, w1, w2
+                        triad_type = '201'
+                    else:
+                        continue
+                    triads[triad_type].append([i, j, k])
+                    
+    else:
+        # 将邻接矩阵存储为NumPy数组, 且当图为无向图时存储为上三角阵，以来减少存储开销
+        adj_mat = np.triu(nx.to_numpy_matrix(G))
+        # print(adj_mat)
+        lenG = len(G)
+        # 三元组类型和节点元组, 只需要wedge
+        triads = {
+            # '003': [], '012': [], '102': [],
+            # '021D': [], '021U': [], '021C': [], '111D': [], '111U': [],
+            '201': [],
+            # '030T': [], '030C': [],  '120D': [], '120U': [], '120C': [], '210': [], '300': []
+        }
+        for i in range(lenG):
+            for j in range(i + 1, lenG):
+                for k in range(j + 1, lenG):
+                    # 判断节点 i, j, k 之间的关系
+                    u = int(adj_mat[i, j])
+                    v = int(adj_mat[i, k])
+                    w = int(adj_mat[j, k])
+                    # 只要结果为2，那么对应有两个边相连，在无向图中，即为wedge
+                    triad_type = u + v + w
+                    if triad_type == 2:
+                        triads['201'].append([i, j, k])
+    return triads
+
 
 class Server:
     def __init__(self):
@@ -35,8 +109,23 @@ class Server:
         if NODE in self.party_subgraph.nodes:
             self.triangle = nx.triangles(self.party_subgraph, NODE)
             self.node_subgraph.add_edges_from(self.party_subgraph.edges(NODE))
-            for wedge in nx.triads_by_type(self.node_subgraph.to_directed())['201']:
-                nodeset = list(wedge.nodes)
+            # 建立节点映射表
+            nodes = list(self.party_subgraph.nodes())
+            node_map = {i: nodes[i] for i in range(len(nodes))}
+            # # 打印节点映射表
+            # print(node_map)
+
+            wedges = triads_by_type(self.party_subgraph)['201']
+            # print(wedges)
+
+            # 将矩阵下标映射回节点编号
+            for i in range(len(wedges)):
+                for j in range(3):
+                    wedges[i][j] = node_map[wedges[i][j]]
+            # print(wedges)
+
+            for wedge in wedges:
+                nodeset = wedge
                 j = 0
                 for node in nodeset:
                     for i, subset in enumerate(NS):
@@ -46,7 +135,7 @@ class Server:
                             break
                 if self.party_label == list(set(self.party_label)):
                     self.W.update(
-                        str(tuple(sorted(wedge.nodes, reverse=True))).encode('utf8'))
+                        str(tuple(sorted(wedge, reverse=True))).encode('utf8'))
                     self.wedge += 1
         else:
             pass
