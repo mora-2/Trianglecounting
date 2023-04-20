@@ -2,7 +2,7 @@ import threading
 import concurrent.futures
 import subprocess
 
-max_workers = 1  # 最大并发线程数
+max_workers = 2  # 最大并发线程数
 
 # 标准对照组
 #  ("node", "11", "1000", "1000", "1000", "0.3", "0.1"),

@@ -25,3 +25,6 @@ output/data/undirected_global/prob_7.txt
 output/data/undirected_global/prob_8.txt
 output/data/undirected_global/prob_9.txt
 output/data/undirected_local/node_1.txt
+output/scripts/script_directed_global.py
+output/scripts/script_undirected_global.py
+output/scripts/script_undirected_local.py
